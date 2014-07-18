@@ -1,0 +1,2075 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 warn package.json sky15@0.0.1 No repository field.
+5 warn package.json sky15@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/imseonmyeong/sky15',
+7 verbose install   [ 'bower',
+7 verbose install     'connect-flash',
+7 verbose install     'connect-mongo',
+7 verbose install     'connect-multiparty',
+7 verbose install     'crypto',
+7 verbose install     'emailjs',
+7 verbose install     'express',
+7 verbose install     'forever',
+7 verbose install     'gm',
+7 verbose install     'grunt',
+7 verbose install     'grunt-cli',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-env',
+7 verbose install     'grunt-karma',
+7 verbose install     'grunt-mocha-test',
+7 verbose install     'grunt-nodemon',
+7 verbose install     'image-size',
+7 verbose install     'jade',
+7 verbose install     'karma',
+7 verbose install     'karma-chrome-launcher',
+7 verbose install     'karma-coffee-preprocessor',
+7 verbose install     'karma-coverage',
+7 verbose install     'karma-firefox-launcher',
+7 verbose install     'karma-html2js-preprocessor',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'karma-requirejs',
+7 verbose install     'karma-script-launcher',
+7 verbose install     'lodash',
+7 verbose install     'mean-logger',
+7 verbose install     'mime',
+7 verbose install     'mongoose',
+7 verbose install     'node-bitlyapi',
+7 verbose install     'node-ffprobe',
+7 verbose install     'node-minify',
+7 verbose install     'passport',
+7 verbose install     'passport-facebook',
+7 verbose install     'passport-github',
+7 verbose install     'passport-google-oauth',
+7 verbose install     'passport-linkedin',
+7 verbose install     'passport-local',
+7 verbose install     'passport-twitter',
+7 verbose install     'q',
+7 verbose install     'should',
+7 verbose install     'supertest',
+7 verbose install     'view-helpers' ] ]
+8 info preinstall sky15@0.0.1
+9 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping gm@~1.14.2 /Users/imseonmyeong/sky15
+12 verbose already installed skipping grunt@~0.4.2 /Users/imseonmyeong/sky15
+13 verbose already installed skipping grunt-cli@~0.1.11 /Users/imseonmyeong/sky15
+14 verbose already installed skipping grunt-concurrent@~0.4.2 /Users/imseonmyeong/sky15
+15 verbose already installed skipping grunt-contrib-jshint@~0.8.0 /Users/imseonmyeong/sky15
+16 verbose already installed skipping grunt-contrib-watch@~0.5.3 /Users/imseonmyeong/sky15
+17 verbose already installed skipping grunt-env@~0.4.1 /Users/imseonmyeong/sky15
+18 verbose already installed skipping grunt-karma@~0.6.2 /Users/imseonmyeong/sky15
+19 verbose already installed skipping grunt-mocha-test@~0.8.1 /Users/imseonmyeong/sky15
+20 verbose already installed skipping grunt-nodemon@0.1.2 /Users/imseonmyeong/sky15
+21 verbose already installed skipping image-size@~0.2.1 /Users/imseonmyeong/sky15
+22 verbose already installed skipping jade@~1.0.2 /Users/imseonmyeong/sky15
+23 verbose already installed skipping karma@~0.10.9 /Users/imseonmyeong/sky15
+24 verbose already installed skipping karma-chrome-launcher@~0.1.2 /Users/imseonmyeong/sky15
+25 verbose already installed skipping karma-coffee-preprocessor@~0.1.2 /Users/imseonmyeong/sky15
+26 verbose cache add [ 'karma-coverage@~0.1.4', null ]
+27 verbose cache add name=undefined spec="karma-coverage@~0.1.4" args=["karma-coverage@~0.1.4",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'karma-coverage@~0.1.4',
+28 verbose parsed url   path: 'karma-coverage@~0.1.4',
+28 verbose parsed url   href: 'karma-coverage@~0.1.4' }
+29 verbose cache add name="karma-coverage" spec="~0.1.4" args=["karma-coverage","~0.1.4"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '~0.1.4',
+30 verbose parsed url   path: '~0.1.4',
+30 verbose parsed url   href: '~0.1.4' }
+31 verbose addNamed [ 'karma-coverage', '~0.1.4' ]
+32 verbose addNamed [ null, '>=0.1.4-0 <0.2.0-0' ]
+33 verbose already installed skipping karma-jasmine@~0.1.5 /Users/imseonmyeong/sky15
+34 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/imseonmyeong/sky15
+35 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/imseonmyeong/sky15
+36 silly lockFile bb11377a-karma-coverage-0-1-4 karma-coverage@~0.1.4
+37 verbose lock karma-coverage@~0.1.4 /Users/imseonmyeong/.npm/bb11377a-karma-coverage-0-1-4.lock
+38 verbose already installed skipping karma-phantomjs-launcher@~0.1.1 /Users/imseonmyeong/sky15
+39 verbose already installed skipping karma-requirejs@~0.1.0 /Users/imseonmyeong/sky15
+40 silly addNameRange { name: 'karma-coverage',
+40 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+40 silly addNameRange   hasData: false }
+41 verbose already installed skipping mean-logger@0.0.1 /Users/imseonmyeong/sky15
+42 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/imseonmyeong/sky15
+43 verbose already installed skipping lodash@~2.4.1 /Users/imseonmyeong/sky15
+44 verbose url raw karma-coverage
+45 verbose url resolving [ 'https://registry.npmjs.org/', './karma-coverage' ]
+46 verbose url resolved https://registry.npmjs.org/karma-coverage
+47 info trying registry request attempt 1 at 21:23:21
+48 verbose etag "62XYWM7IVFB3KYKSZ43ET7ISQ"
+49 http GET https://registry.npmjs.org/karma-coverage
+50 verbose already installed skipping node-bitlyapi@^0.4.0 /Users/imseonmyeong/sky15
+51 verbose already installed skipping mime@^1.2.11 /Users/imseonmyeong/sky15
+52 verbose already installed skipping node-ffprobe@^1.2.2 /Users/imseonmyeong/sky15
+53 verbose already installed skipping mongoose@~3.8.3 /Users/imseonmyeong/sky15
+54 verbose already installed skipping node-minify@^0.10.2 /Users/imseonmyeong/sky15
+55 verbose already installed skipping passport@~0.1.18 /Users/imseonmyeong/sky15
+56 verbose already installed skipping passport-facebook@~1.0.2 /Users/imseonmyeong/sky15
+57 verbose already installed skipping passport-github@~0.1.5 /Users/imseonmyeong/sky15
+58 verbose already installed skipping passport-google-oauth@~0.1.5 /Users/imseonmyeong/sky15
+59 verbose already installed skipping passport-linkedin@~0.1.3 /Users/imseonmyeong/sky15
+60 verbose already installed skipping passport-local@~0.1.6 /Users/imseonmyeong/sky15
+61 verbose already installed skipping passport-twitter@~1.0.2 /Users/imseonmyeong/sky15
+62 verbose already installed skipping q@^1.0.1 /Users/imseonmyeong/sky15
+63 verbose already installed skipping should@2.1.1 /Users/imseonmyeong/sky15
+64 verbose already installed skipping supertest@0.8.2 /Users/imseonmyeong/sky15
+65 verbose already installed skipping view-helpers@~0.1.4 /Users/imseonmyeong/sky15
+66 verbose already installed skipping bower@~1.2.8 /Users/imseonmyeong/sky15
+67 verbose already installed skipping connect-flash@~0.1.1 /Users/imseonmyeong/sky15
+68 verbose already installed skipping connect-multiparty@~1.0.3 /Users/imseonmyeong/sky15
+69 verbose already installed skipping connect-mongo@~0.4.0 /Users/imseonmyeong/sky15
+70 verbose already installed skipping crypto@0.0.3 /Users/imseonmyeong/sky15
+71 verbose cache add [ 'emailjs@latest', null ]
+72 verbose cache add name=undefined spec="emailjs@latest" args=["emailjs@latest",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'emailjs@latest',
+73 verbose parsed url   path: 'emailjs@latest',
+73 verbose parsed url   href: 'emailjs@latest' }
+74 verbose cache add name="emailjs" spec="latest" args=["emailjs","latest"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'latest',
+75 verbose parsed url   path: 'latest',
+75 verbose parsed url   href: 'latest' }
+76 verbose addNamed [ 'emailjs', 'latest' ]
+77 verbose addNamed [ null, null ]
+78 silly lockFile 3d7fc0bf-emailjs-latest emailjs@latest
+79 verbose lock emailjs@latest /Users/imseonmyeong/.npm/3d7fc0bf-emailjs-latest.lock
+80 verbose already installed skipping express@~3.4.7 /Users/imseonmyeong/sky15
+81 verbose already installed skipping forever@~0.10.11 /Users/imseonmyeong/sky15
+82 info addNameTag [ 'emailjs', 'latest' ]
+83 verbose url raw emailjs
+84 verbose url resolving [ 'https://registry.npmjs.org/', './emailjs' ]
+85 verbose url resolved https://registry.npmjs.org/emailjs
+86 info trying registry request attempt 1 at 21:23:21
+87 verbose etag "BYELM3BYY5LRL2NI94RSBR0PR"
+88 http GET https://registry.npmjs.org/emailjs
+89 http 304 https://registry.npmjs.org/karma-coverage
+90 silly registry.get cb [ 304,
+90 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:21 GMT',
+90 silly registry.get     server: 'Apache',
+90 silly registry.get     via: '1.1 varnish',
+90 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:06 GMT',
+90 silly registry.get     'cache-control': 'max-age=30',
+90 silly registry.get     etag: '"62XYWM7IVFB3KYKSZ43ET7ISQ"',
+90 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+90 silly registry.get     'x-cache': 'HIT',
+90 silly registry.get     'x-cache-hits': '2',
+90 silly registry.get     'x-timer': 'S1405686201.853461,VS0,VE0',
+90 silly registry.get     vary: 'Accept',
+90 silly registry.get     'content-length': '0',
+90 silly registry.get     'keep-alive': 'timeout=10, max=50',
+90 silly registry.get     connection: 'Keep-Alive' } ]
+91 verbose etag karma-coverage from cache
+92 silly addNameRange number 2 { name: 'karma-coverage',
+92 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'karma-coverage',
+93 silly addNameRange   [ '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.0.3',
+93 silly addNameRange     '0.0.4',
+93 silly addNameRange     '0.0.5',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.1.3',
+93 silly addNameRange     '0.1.4',
+93 silly addNameRange     '0.1.5',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.2.3',
+93 silly addNameRange     '0.2.4' ] ]
+94 verbose addNamed [ 'karma-coverage', '0.1.5' ]
+95 verbose addNamed [ '0.1.5', '0.1.5' ]
+96 silly lockFile f9aea0e5-karma-coverage-0-1-5 karma-coverage@0.1.5
+97 verbose lock karma-coverage@0.1.5 /Users/imseonmyeong/.npm/f9aea0e5-karma-coverage-0-1-5.lock
+98 silly lockFile f9aea0e5-karma-coverage-0-1-5 karma-coverage@0.1.5
+99 silly lockFile f9aea0e5-karma-coverage-0-1-5 karma-coverage@0.1.5
+100 silly lockFile bb11377a-karma-coverage-0-1-4 karma-coverage@~0.1.4
+101 silly lockFile bb11377a-karma-coverage-0-1-4 karma-coverage@~0.1.4
+102 http 304 https://registry.npmjs.org/emailjs
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:22 GMT',
+103 silly registry.get     server: 'Apache',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:22 GMT',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     etag: '"BYELM3BYY5LRL2NI94RSBR0PR"',
+103 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+103 silly registry.get     'x-cache': 'MISS',
+103 silly registry.get     'x-cache-hits': '0',
+103 silly registry.get     'x-timer': 'S1405686202.360943,VS0,VE182',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'content-length': '0',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 verbose etag emailjs from cache
+105 verbose addNamed [ 'emailjs', '0.3.9' ]
+106 verbose addNamed [ '0.3.9', '0.3.9' ]
+107 silly lockFile e07b894f-emailjs-0-3-9 emailjs@0.3.9
+108 verbose lock emailjs@0.3.9 /Users/imseonmyeong/.npm/e07b894f-emailjs-0-3-9.lock
+109 silly lockFile e07b894f-emailjs-0-3-9 emailjs@0.3.9
+110 silly lockFile e07b894f-emailjs-0-3-9 emailjs@0.3.9
+111 silly lockFile 3d7fc0bf-emailjs-latest emailjs@latest
+112 silly lockFile 3d7fc0bf-emailjs-latest emailjs@latest
+113 info already installed emailjs@0.3.9
+114 silly resolved [ { name: 'karma-coverage',
+114 silly resolved     version: '0.1.5',
+114 silly resolved     description: 'A Karma plugin. Generate code coverage.',
+114 silly resolved     main: 'lib/index.js',
+114 silly resolved     scripts: { test: 'grunt test' },
+114 silly resolved     repository:
+114 silly resolved      { type: 'git',
+114 silly resolved        url: 'git://github.com/karma-runner/karma-coverage.git' },
+114 silly resolved     keywords:
+114 silly resolved      [ 'karma-plugin',
+114 silly resolved        'karma-preprocessor',
+114 silly resolved        'karma-reporter',
+114 silly resolved        'coverage',
+114 silly resolved        'istanbul' ],
+114 silly resolved     author: { name: 'SATO taichi', email: 'ryushi@gmail.com' },
+114 silly resolved     dependencies: { istanbul: '~0.1.45', ibrik: '~1.0.1', dateformat: '~1.0.6' },
+114 silly resolved     peerDependencies: { karma: '>=0.9' },
+114 silly resolved     license: 'MIT',
+114 silly resolved     devDependencies:
+114 silly resolved      { mocks: '0.0.11',
+114 silly resolved        grunt: '~0.4.1',
+114 silly resolved        'grunt-simple-mocha': '~0.4.0',
+114 silly resolved        'grunt-contrib-jshint': '~0.6.0',
+114 silly resolved        karma: '~0.9.3',
+114 silly resolved        sinon: '~1.7.3',
+114 silly resolved        chai: '~1.7.2',
+114 silly resolved        'sinon-chai': '~2.4.0',
+114 silly resolved        'grunt-bump': '~0.0.7',
+114 silly resolved        'grunt-npm': '~0.0.2',
+114 silly resolved        'grunt-auto-release': '~0.0.1' },
+114 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+114 silly resolved     readme: '# karma-coverage [![Build Status](https://travis-ci.org/karma-runner/karma-coverage.png?branch=master)](https://travis-ci.org/karma-runner/karma-coverage)\n\n> Generate code coverage using [Istanbul].\n\n## Installation\n\nThe easiest way is to keep `karma-coverage` as a devDependency in your `package.json`.\n```json\n{\n  "devDependencies": {\n    "karma": "~0.10",\n    "karma-coverage": "~0.1"\n  }\n}\n```\n\nYou can simple do it by:\n```bash\nnpm install karma-coverage --save-dev\n```\n\n## Configuration\nFollowing code shows the default configuration...\n```js\n// karma.conf.js\nmodule.exports = function(config) {\n  config.set({\n    files: [\n      \'src/**/*.js\',\n      \'test/**/*.js\'\n    ],\n\n    // coverage reporter generates the coverage\n    reporters: [\'progress\', \'coverage\'],\n\n    preprocessors: {\n      // source files, that you wanna generate coverage for\n      // do not include tests or libraries\n      // (these files will be instrumented by Istanbul)\n      \'src/*.js\': [\'coverage\']\n    },\n\n    // optionally, configure the reporter\n    coverageReporter: {\n      type : \'html\',\n      dir : \'coverage/\'\n    }\n  });\n};\n```\n\n### Options\n#### type\n**Type:** String\n\n**Possible Values:**\n  * `html` (default)\n  * `lcov` (lcov and html)\n  * `lcovonly`\n  * `text`\n  * `text-summary`\n  * `cobertura` (xml format supported by Jenkins)\n  * `teamcity` (code coverage System Messages for TeamCity)\n\nIf you set `type` to `text` or `text-summary`, you may set the `file` option, like this.\n```javascript\ncoverageReporter = {\n  type : \'text\',\n  dir : \'coverage/\',\n  file : \'coverage.txt\'\n}\n```\nIf no filename is given, it will write the output to the console.\n\n#### dir\n**Type:** String\n\n**Description:** This will be used to output coverage reports. When\n  you set a relative path, the directory is resolved against the `basePath`.\n\n#### multiple reporters\nYou can use multiple reporters, by providing array of options.\n\n```javascript\ncoverageReporter: {\n  reporters:[\n    {type: \'html\', dir:\'coverage/\'},\n    {type: \'teamcity\'},\n    {type: \'text-summary\'}\n  ],\n}\n```\n \n----\n\nFor more information on Karma see the [homepage].\n\n\n[homepage]: http://karma-runner.github.com\n[Istanbul]: https://github.com/yahoo/istanbul\n',
+114 silly resolved     readmeFilename: 'README.md',
+114 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-coverage/issues' },
+114 silly resolved     homepage: 'https://github.com/karma-runner/karma-coverage',
+114 silly resolved     _id: 'karma-coverage@0.1.5',
+114 silly resolved     _from: 'karma-coverage@~0.1.4' } ]
+115 info install karma-coverage@0.1.5 into /Users/imseonmyeong/sky15
+116 info installOne karma-coverage@0.1.5
+117 info /Users/imseonmyeong/sky15/node_modules/karma-coverage unbuild
+118 verbose tar unpack /Users/imseonmyeong/.npm/karma-coverage/0.1.5/package.tgz
+119 silly lockFile 0d761082-ky15-node-modules-karma-coverage tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage
+120 verbose lock tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage /Users/imseonmyeong/.npm/0d761082-ky15-node-modules-karma-coverage.lock
+121 silly lockFile 7c7dbe07-karma-coverage-0-1-5-package-tgz tar:///Users/imseonmyeong/.npm/karma-coverage/0.1.5/package.tgz
+122 verbose lock tar:///Users/imseonmyeong/.npm/karma-coverage/0.1.5/package.tgz /Users/imseonmyeong/.npm/7c7dbe07-karma-coverage-0-1-5-package-tgz.lock
+123 silly gunzTarPerm modes [ '755', '644' ]
+124 silly gunzTarPerm extractEntry package.json
+125 silly gunzTarPerm extractEntry README.md
+126 silly gunzTarPerm extractEntry LICENSE
+127 silly gunzTarPerm extractEntry lib/index.js
+128 silly gunzTarPerm extractEntry lib/preprocessor.js
+129 silly gunzTarPerm extractEntry lib/reporter.js
+130 silly lockFile 0d761082-ky15-node-modules-karma-coverage tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage
+131 silly lockFile 0d761082-ky15-node-modules-karma-coverage tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage
+132 silly lockFile 7c7dbe07-karma-coverage-0-1-5-package-tgz tar:///Users/imseonmyeong/.npm/karma-coverage/0.1.5/package.tgz
+133 silly lockFile 7c7dbe07-karma-coverage-0-1-5-package-tgz tar:///Users/imseonmyeong/.npm/karma-coverage/0.1.5/package.tgz
+134 info preinstall karma-coverage@0.1.5
+135 verbose readDependencies using package.json deps
+136 verbose readDependencies using package.json deps
+137 verbose cache add [ 'istanbul@~0.1.45', null ]
+138 verbose cache add name=undefined spec="istanbul@~0.1.45" args=["istanbul@~0.1.45",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'istanbul@~0.1.45',
+139 verbose parsed url   path: 'istanbul@~0.1.45',
+139 verbose parsed url   href: 'istanbul@~0.1.45' }
+140 verbose cache add name="istanbul" spec="~0.1.45" args=["istanbul","~0.1.45"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '~0.1.45',
+141 verbose parsed url   path: '~0.1.45',
+141 verbose parsed url   href: '~0.1.45' }
+142 verbose addNamed [ 'istanbul', '~0.1.45' ]
+143 verbose addNamed [ null, '>=0.1.45-0 <0.2.0-0' ]
+144 silly lockFile e6699f3e-istanbul-0-1-45 istanbul@~0.1.45
+145 verbose lock istanbul@~0.1.45 /Users/imseonmyeong/.npm/e6699f3e-istanbul-0-1-45.lock
+146 verbose cache add [ 'ibrik@~1.0.1', null ]
+147 verbose cache add name=undefined spec="ibrik@~1.0.1" args=["ibrik@~1.0.1",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'ibrik@~1.0.1',
+148 verbose parsed url   path: 'ibrik@~1.0.1',
+148 verbose parsed url   href: 'ibrik@~1.0.1' }
+149 verbose cache add name="ibrik" spec="~1.0.1" args=["ibrik","~1.0.1"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '~1.0.1',
+150 verbose parsed url   path: '~1.0.1',
+150 verbose parsed url   href: '~1.0.1' }
+151 verbose addNamed [ 'ibrik', '~1.0.1' ]
+152 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+153 silly lockFile 8268bf66-ibrik-1-0-1 ibrik@~1.0.1
+154 verbose lock ibrik@~1.0.1 /Users/imseonmyeong/.npm/8268bf66-ibrik-1-0-1.lock
+155 verbose cache add [ 'dateformat@~1.0.6', null ]
+156 verbose cache add name=undefined spec="dateformat@~1.0.6" args=["dateformat@~1.0.6",null]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: 'dateformat@~1.0.6',
+157 verbose parsed url   path: 'dateformat@~1.0.6',
+157 verbose parsed url   href: 'dateformat@~1.0.6' }
+158 verbose cache add name="dateformat" spec="~1.0.6" args=["dateformat","~1.0.6"]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '~1.0.6',
+159 verbose parsed url   path: '~1.0.6',
+159 verbose parsed url   href: '~1.0.6' }
+160 verbose addNamed [ 'dateformat', '~1.0.6' ]
+161 verbose addNamed [ null, '>=1.0.6-0 <1.1.0-0' ]
+162 silly lockFile 7bc67268-dateformat-1-0-6 dateformat@~1.0.6
+163 verbose lock dateformat@~1.0.6 /Users/imseonmyeong/.npm/7bc67268-dateformat-1-0-6.lock
+164 silly addNameRange { name: 'istanbul',
+164 silly addNameRange   range: '>=0.1.45-0 <0.2.0-0',
+164 silly addNameRange   hasData: false }
+165 silly addNameRange { name: 'ibrik', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+166 silly addNameRange { name: 'dateformat',
+166 silly addNameRange   range: '>=1.0.6-0 <1.1.0-0',
+166 silly addNameRange   hasData: false }
+167 verbose url raw istanbul
+168 verbose url resolving [ 'https://registry.npmjs.org/', './istanbul' ]
+169 verbose url resolved https://registry.npmjs.org/istanbul
+170 info trying registry request attempt 1 at 21:23:23
+171 verbose etag "BJGG5RTEC0ANIEQRYZRW83ACC"
+172 http GET https://registry.npmjs.org/istanbul
+173 verbose url raw dateformat
+174 verbose url resolving [ 'https://registry.npmjs.org/', './dateformat' ]
+175 verbose url resolved https://registry.npmjs.org/dateformat
+176 info trying registry request attempt 1 at 21:23:23
+177 verbose etag "WIX0YXWBN1ODE29QQOP9TDGE"
+178 http GET https://registry.npmjs.org/dateformat
+179 verbose url raw ibrik
+180 verbose url resolving [ 'https://registry.npmjs.org/', './ibrik' ]
+181 verbose url resolved https://registry.npmjs.org/ibrik
+182 info trying registry request attempt 1 at 21:23:23
+183 verbose etag "BIM3H0CBC3G613J1R06S20OD"
+184 http GET https://registry.npmjs.org/ibrik
+185 http 304 https://registry.npmjs.org/istanbul
+186 silly registry.get cb [ 304,
+186 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:24 GMT',
+186 silly registry.get     server: 'Apache',
+186 silly registry.get     via: '1.1 varnish',
+186 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:08 GMT',
+186 silly registry.get     'cache-control': 'max-age=30',
+186 silly registry.get     etag: '"BJGG5RTEC0ANIEQRYZRW83ACC"',
+186 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+186 silly registry.get     'x-cache': 'HIT',
+186 silly registry.get     'x-cache-hits': '2',
+186 silly registry.get     'x-timer': 'S1405686204.177052,VS0,VE0',
+186 silly registry.get     vary: 'Accept',
+186 silly registry.get     'content-length': '0',
+186 silly registry.get     'keep-alive': 'timeout=10, max=50',
+186 silly registry.get     connection: 'Keep-Alive' } ]
+187 verbose etag istanbul from cache
+188 silly addNameRange number 2 { name: 'istanbul', range: '>=0.1.45-0 <0.2.0-0', hasData: true }
+189 silly addNameRange versions [ 'istanbul',
+189 silly addNameRange   [ '0.1.0',
+189 silly addNameRange     '0.1.1',
+189 silly addNameRange     '0.1.2',
+189 silly addNameRange     '0.1.3',
+189 silly addNameRange     '0.1.4',
+189 silly addNameRange     '0.1.5',
+189 silly addNameRange     '0.1.6',
+189 silly addNameRange     '0.1.7',
+189 silly addNameRange     '0.1.8',
+189 silly addNameRange     '0.1.9',
+189 silly addNameRange     '0.1.10',
+189 silly addNameRange     '0.1.11',
+189 silly addNameRange     '0.1.12',
+189 silly addNameRange     '0.1.13',
+189 silly addNameRange     '0.1.14',
+189 silly addNameRange     '0.1.15',
+189 silly addNameRange     '0.1.16',
+189 silly addNameRange     '0.1.17',
+189 silly addNameRange     '0.1.18',
+189 silly addNameRange     '0.1.19',
+189 silly addNameRange     '0.1.20',
+189 silly addNameRange     '0.1.21',
+189 silly addNameRange     '0.1.22',
+189 silly addNameRange     '0.1.23',
+189 silly addNameRange     '0.1.24',
+189 silly addNameRange     '0.1.25',
+189 silly addNameRange     '0.1.26',
+189 silly addNameRange     '0.1.27',
+189 silly addNameRange     '0.1.28',
+189 silly addNameRange     '0.1.29',
+189 silly addNameRange     '0.1.30',
+189 silly addNameRange     '0.1.31',
+189 silly addNameRange     '0.1.32',
+189 silly addNameRange     '0.1.33',
+189 silly addNameRange     '0.1.34',
+189 silly addNameRange     '0.1.35',
+189 silly addNameRange     '0.1.36',
+189 silly addNameRange     '0.1.37',
+189 silly addNameRange     '0.1.38',
+189 silly addNameRange     '0.1.39',
+189 silly addNameRange     '0.1.40',
+189 silly addNameRange     '0.1.41',
+189 silly addNameRange     '0.1.42',
+189 silly addNameRange     '0.1.43',
+189 silly addNameRange     '0.1.44',
+189 silly addNameRange     '0.1.45',
+189 silly addNameRange     '0.1.46',
+189 silly addNameRange     '0.2.0',
+189 silly addNameRange     '0.2.1',
+189 silly addNameRange     '0.2.2',
+189 silly addNameRange     '0.2.3',
+189 silly addNameRange     '0.2.4',
+189 silly addNameRange     '0.2.5',
+189 silly addNameRange     '0.2.6',
+189 silly addNameRange     '0.2.7',
+189 silly addNameRange     '0.2.8',
+189 silly addNameRange     '0.2.9',
+189 silly addNameRange     '0.2.10',
+189 silly addNameRange     '0.2.11',
+189 silly addNameRange     '0.2.12',
+189 silly addNameRange     '0.2.13',
+189 silly addNameRange     '0.2.14',
+189 silly addNameRange     '0.2.15',
+189 silly addNameRange     '0.2.16',
+189 silly addNameRange     '0.3.0' ] ]
+190 verbose addNamed [ 'istanbul', '0.1.46' ]
+191 verbose addNamed [ '0.1.46', '0.1.46' ]
+192 silly lockFile 0d8aeccf-istanbul-0-1-46 istanbul@0.1.46
+193 verbose lock istanbul@0.1.46 /Users/imseonmyeong/.npm/0d8aeccf-istanbul-0-1-46.lock
+194 silly lockFile 0d8aeccf-istanbul-0-1-46 istanbul@0.1.46
+195 silly lockFile 0d8aeccf-istanbul-0-1-46 istanbul@0.1.46
+196 silly lockFile e6699f3e-istanbul-0-1-45 istanbul@~0.1.45
+197 silly lockFile e6699f3e-istanbul-0-1-45 istanbul@~0.1.45
+198 http 304 https://registry.npmjs.org/dateformat
+199 silly registry.get cb [ 304,
+199 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:24 GMT',
+199 silly registry.get     server: 'Apache',
+199 silly registry.get     via: '1.1 varnish',
+199 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:05 GMT',
+199 silly registry.get     'cache-control': 'max-age=60',
+199 silly registry.get     etag: '"WIX0YXWBN1ODE29QQOP9TDGE"',
+199 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+199 silly registry.get     'x-cache': 'HIT',
+199 silly registry.get     'x-cache-hits': '2',
+199 silly registry.get     'x-timer': 'S1405686204.648939,VS0,VE0',
+199 silly registry.get     vary: 'Accept',
+199 silly registry.get     'content-length': '0',
+199 silly registry.get     'keep-alive': 'timeout=10, max=50',
+199 silly registry.get     connection: 'Keep-Alive' } ]
+200 verbose etag dateformat from cache
+201 silly addNameRange number 2 { name: 'dateformat',
+201 silly addNameRange   range: '>=1.0.6-0 <1.1.0-0',
+201 silly addNameRange   hasData: true }
+202 silly addNameRange versions [ 'dateformat',
+202 silly addNameRange   [ '0.9.0-1.2.3',
+202 silly addNameRange     '1.0.0-1.2.3',
+202 silly addNameRange     '1.0.1-1.2.3',
+202 silly addNameRange     '1.0.2-1.2.3',
+202 silly addNameRange     '1.0.3-1.2.3',
+202 silly addNameRange     '1.0.4-1.2.3',
+202 silly addNameRange     '1.0.5-1.2.3',
+202 silly addNameRange     '1.0.6-1.2.3',
+202 silly addNameRange     '1.0.7-1.2.3',
+202 silly addNameRange     '1.0.8-1.2.3' ] ]
+203 verbose addNamed [ 'dateformat', '1.0.8-1.2.3' ]
+204 verbose addNamed [ '1.0.8-1.2.3', '1.0.8-1.2.3' ]
+205 silly lockFile 1c59b45e-dateformat-1-0-8-1-2-3 dateformat@1.0.8-1.2.3
+206 verbose lock dateformat@1.0.8-1.2.3 /Users/imseonmyeong/.npm/1c59b45e-dateformat-1-0-8-1-2-3.lock
+207 silly lockFile 1c59b45e-dateformat-1-0-8-1-2-3 dateformat@1.0.8-1.2.3
+208 silly lockFile 1c59b45e-dateformat-1-0-8-1-2-3 dateformat@1.0.8-1.2.3
+209 silly lockFile 7bc67268-dateformat-1-0-6 dateformat@~1.0.6
+210 silly lockFile 7bc67268-dateformat-1-0-6 dateformat@~1.0.6
+211 http 304 https://registry.npmjs.org/ibrik
+212 silly registry.get cb [ 304,
+212 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:24 GMT',
+212 silly registry.get     server: 'Apache',
+212 silly registry.get     via: '1.1 varnish',
+212 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:24 GMT',
+212 silly registry.get     'cache-control': 'max-age=30',
+212 silly registry.get     etag: '"BIM3H0CBC3G613J1R06S20OD"',
+212 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+212 silly registry.get     'x-cache': 'HIT',
+212 silly registry.get     'x-cache-hits': '1',
+212 silly registry.get     'x-timer': 'S1405686204.757844,VS0,VE0',
+212 silly registry.get     vary: 'Accept',
+212 silly registry.get     'content-length': '0',
+212 silly registry.get     'keep-alive': 'timeout=10, max=50',
+212 silly registry.get     connection: 'Keep-Alive' } ]
+213 verbose etag ibrik from cache
+214 silly addNameRange number 2 { name: 'ibrik', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+215 silly addNameRange versions [ 'ibrik',
+215 silly addNameRange   [ '0.0.1-dev',
+215 silly addNameRange     '0.0.1',
+215 silly addNameRange     '0.0.2',
+215 silly addNameRange     '0.0.3',
+215 silly addNameRange     '0.0.3-1',
+215 silly addNameRange     '0.0.3-2',
+215 silly addNameRange     '0.0.4',
+215 silly addNameRange     '1.0.1',
+215 silly addNameRange     '1.1.0',
+215 silly addNameRange     '1.1.1' ] ]
+216 verbose addNamed [ 'ibrik', '1.0.1' ]
+217 verbose addNamed [ '1.0.1', '1.0.1' ]
+218 silly lockFile eeb5b243-ibrik-1-0-1 ibrik@1.0.1
+219 verbose lock ibrik@1.0.1 /Users/imseonmyeong/.npm/eeb5b243-ibrik-1-0-1.lock
+220 silly lockFile eeb5b243-ibrik-1-0-1 ibrik@1.0.1
+221 silly lockFile eeb5b243-ibrik-1-0-1 ibrik@1.0.1
+222 silly lockFile 8268bf66-ibrik-1-0-1 ibrik@~1.0.1
+223 silly lockFile 8268bf66-ibrik-1-0-1 ibrik@~1.0.1
+224 silly resolved [ { name: 'istanbul',
+224 silly resolved     version: '0.1.46',
+224 silly resolved     description: 'Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale',
+224 silly resolved     keywords: [ 'coverage', 'code coverage', 'JS code coverage', 'JS coverage' ],
+224 silly resolved     author:
+224 silly resolved      { name: 'Krishnan Anantheswaran',
+224 silly resolved        email: 'kananthmail-github@yahoo.com' },
+224 silly resolved     contributors:
+224 silly resolved      [ [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object],
+224 silly resolved        [Object] ],
+224 silly resolved     preferGlobal: true,
+224 silly resolved     scripts:
+224 silly resolved      { pretest: 'jshint --config ./node_modules/yui-lint/jshint.json lib/*js lib/command/*js lib/report/*js lib/store/*js lib/util/*js test/*js test/instrumentation/*js test/cli/*js test/other/*js',
+224 silly resolved        test: 'test/run.js',
+224 silly resolved        posttest: 'node ./lib/cli.js check-coverage --statements 95 --branches 80',
+224 silly resolved        docs: 'npm install yuidocjs && node node_modules/yuidocjs/lib/cli.js .' },
+224 silly resolved     bin: { istanbul: './lib/cli.js' },
+224 silly resolved     repository: { type: 'git', url: 'git://github.com/gotwarlost/istanbul.git' },
+224 silly resolved     dependencies:
+224 silly resolved      { esprima: '1.0.x',
+224 silly resolved        escodegen: '0.0.23',
+224 silly resolved        handlebars: '1.0.x',
+224 silly resolved        mkdirp: '0.3.x',
+224 silly resolved        nopt: '2.1.x',
+224 silly resolved        fileset: '0.1.x',
+224 silly resolved        which: '1.0.x',
+224 silly resolved        async: '0.2.x',
+224 silly resolved        abbrev: '1.0.x',
+224 silly resolved        wordwrap: '0.0.x',
+224 silly resolved        resolve: '0.5.x' },
+224 silly resolved     devDependencies:
+224 silly resolved      { rimraf: '*',
+224 silly resolved        nodeunit: '*',
+224 silly resolved        jshint: '*',
+224 silly resolved        'yui-lint': '*',
+224 silly resolved        requirejs: '2.x' },
+224 silly resolved     readme: 'Istanbul - a JS code coverage tool written in JS\n================================================\n\n[![Build Status](https://secure.travis-ci.org/gotwarlost/istanbul.png)](http://travis-ci.org/gotwarlost/istanbul)\n[![Dependency Status](https://gemnasium.com/gotwarlost/istanbul.png)](https://gemnasium.com/gotwarlost/istanbul)\n\n[![NPM](https://nodei.co/npm/istanbul.png?downloads=true)](https://nodei.co/npm/istanbul/) \n\nFeatures\n--------\n\n* All-javascript instrumentation library that tracks **statement, branch,\nand function coverage** and reverse-engineers **line coverage** with 100% fidelity.\n* **Module loader hooks** to instrument code on the fly\n* **Command line tools** to run node unit tests "with coverage turned on" and no cooperation\nwhatsoever from the test runner\n* **HTML** and **LCOV** reporting.\n* Ability to use as **middleware** when serving JS files that need to be tested on the browser.\n* Can be used on the **command line** as well as a **library**\n* Based on the awesome `esprima` parser and the equally awesome `escodegen` code generator\n* Well-tested on node 0.4.x, 0.6.x, 0.8.x and the browser (instrumentation library only)\n\nInstalling\n----------\n\n    $ npm install -g istanbul\n\nGetting started\n---------------\n\nThe best way to see it in action is to run node unit tests. Say you have a test\nscript `test.js` that runs all tests for your node project without coverage.\n\nSimply:\n\n    $ cd /path/to/your/source/root\n    $ istanbul cover test.js\n\nand this should produce a `coverage.json`, `lcov.info` and `lcov-report/*html` under `./coverage`\n\nSample of code coverage reports produced by this tool (for this tool!):\n\n* [HTML reports](http://gotwarlost.github.com/istanbul/public/coverage/lcov-report/index.html)\n* [Standard LCOV reports](http://gotwarlost.github.com/istanbul/public/coverage/std-lcov/index.html) (using `genhtml` on the lcov trace file)\n\nUse cases\n---------\n\nSupports the following use cases and more\n\n* transparent coverage of nodejs unit tests\n* ability to use in an <code>npm test</code> script for conditional coverage\n* instrumentation of files in batch mode for browser tests (using yeti for example)\n* Server side code coverage for nodejs by embedding it as custom middleware\n\n\nThe command line\n----------------\n\n    $ istanbul help\n\ngives you detailed help on all commands.\n\nUsage: istanbul help <command>\n\nAvailable commands are:\n\n      check-coverage\n              checks overall coverage against thresholds from coverage JSON\n              files. Exits 1 if thresholds are not met, 0 otherwise\n\n\n      cover   transparently adds coverage information to a node command. Saves\n              coverage.json and reports at the end of execution\n\n\n      help    shows help\n\n\n      instrument\n              instruments a file or a directory tree and writes the\n              instrumented code to the desired output location\n\n\n      report  writes reports for coverage JSON objects produced in a previous\n              run\n\n\n      test    cover a node command only when npm_config_coverage is set. Use in\n              an `npm test` script for conditional coverage\n\n\nCommand names can be abbreviated as long as the abbreviation is unambiguous\n\nThe `cover` command\n-------------------\n\n    $ istanbul cover my-test-script.js -- my test args\n    # note the -- between the command name and the arguments to be passed\n\nThe `cover` command can be used to get a coverage object and reports for any arbitrary\nnode script. By default, coverage information is written under `./coverage` - this\ncan be changed using command-line options.\n\nThe `test` command\n-------------------\n\nThe `test` command has almost the same behavior as the `cover` command, except that\nit skips coverage unless the `npm_config_coverage` environment variable is set.\n\nThis helps you set up conditional coverage for tests. In this case you would\nhave a `package.json` that looks as follows.\n\n    {\n        "name": "my-awesome-lib",\n        "version": "1.0",\n        "script": {\n            "test": "istanbul test my-test-file.js"\n        }\n    }\n\nThen:\n\n    $ npm test # will run tests without coverage\n\nAnd:\n\n    $ npm test --coverage # will run tests with coverage\n\n**Note**: This needs `node 0.6` or better to work. `npm` for `node 0.4.x` does\nnot support the `--coverage` flag.\n\nThe `instrument` command\n------------------------\n\nInstruments a single JS file or an entire directory tree and produces an output directory tree with instrumented code. This should not be required for running node unit tests but is useful for tests to be run on the browser (using `yeti` for example).\n\nThe `report` command\n-------------------\n\nWrites reports using `coverage*.json` files as the source of coverage information. Reports are available in the following formats:\n\n* html - produces a bunch of HTML files with annotated source code\n* lcovonly - produces an lcov.info file\n* lcov - produces html + lcov files. This is the default format\n* cobertura - produces a cobertura-coverage.xml file for easy Hudson integration\n* text-summary - produces a compact text summary of coverage, typically to console\n* text - produces a detailed text table with coverage for all files\n* teamcity - produces service messages to report code coverage to TeamCity\n\nAdditional report formats may be plugged in at the library level.\n\nLibrary usage\n-------------\n\nAll the features of istanbul can be accessed as a library using its [public API](http://gotwarlost.github.com/istanbul/public/apidocs/index.html)\n\nChangelog\n---------\n\nChangelog has been moved [here](https://github.com/gotwarlost/istanbul/blob/master/CHANGELOG.md).\n\nLicense\n-------\n\nistanbul is licensed under the [BSD License](http://github.com/gotwarlost/istanbul/raw/master/LICENSE).\n\nThird-party libraries\n---------------------\n\nThe following third-party libraries are used by this module:\n\n* abbrev: https://github.com/isaacs/abbrev-js -  to handle command abbreviations\n* async: https://github.com/caolan/async - for parallel instrumentation of files\n* escodegen: https://github.com/Constellation/escodegen - for JS code generation\n* esprima: https://github.com/ariya/esprima - for JS parsing\n* fileset: https://github.com/mklabs/node-fileset - for loading and matching path expressions\n* handlebars: https://github.com/wycats/handlebars.js/ - for report template expansion\n* mkdirp: https://github.com/substack/node-mkdirp - to create output directories\n* nodeunit: https://github.com/caolan/nodeunit - dev dependency for unit tests\n* nopt: https://github.com/isaacs/nopt - for option parsing\n* resolve: https://github.com/substack/node-resolve - for resolving a post-require hook module name into its main file.\n* rimraf - https://github.com/isaacs/rimraf - dev dependency for unit tests\n* which: https://github.com/isaacs/node-which - to resolve a node command to a file for the `cover` command\n* wordwrap: https://github.com/substack/node-wordwrap - for prettier help\n* prettify: http://code.google.com/p/google-code-prettify/ - for syntax colored HTML reports. Files checked in under `lib/vendor/`\n\nInspired by\n-----------\n\n* YUI test coverage - https://github.com/yui/yuitest - the grand-daddy of JS coverage tools. Istanbul has been specifically designed to offer an alternative to this library with an easy migration path.\n* cover: https://github.com/itay/node-cover - the inspiration for the `cover` command, modeled after the `run` command in that tool. The coverage methodology used by istanbul is quite different, however\n\nShout out to\n------------\n\n   * [mfncooper](https://github.com/mfncooper) - for great brainstorming discussions\n   * [reid](https://github.com/reid), [davglass](https://github.com/davglass), the YUI dudes, for interesting conversations, encouragement, support and gentle pressure to get it done :)\n\nWhy the funky name?\n-------------------\n\nSince all the good ones are taken. Comes from the loose association of ideas across coverage, carpet-area coverage, the country that makes good carpets and so on...\n\n\n',
+224 silly resolved     readmeFilename: 'README.md',
+224 silly resolved     bugs: { url: 'https://github.com/gotwarlost/istanbul/issues' },
+224 silly resolved     homepage: 'https://github.com/gotwarlost/istanbul',
+224 silly resolved     _id: 'istanbul@0.1.46',
+224 silly resolved     _from: 'istanbul@~0.1.45' },
+224 silly resolved   { name: 'dateformat',
+224 silly resolved     description: 'A node.js package for Steven Levithan\'s excellent dateFormat() function.',
+224 silly resolved     maintainers: 'Felix Geisendörfer <felix@debuggable.com>',
+224 silly resolved     homepage: 'https://github.com/felixge/node-dateformat',
+224 silly resolved     author: { name: 'Steven Levithan' },
+224 silly resolved     contributors: [ [Object], [Object], [Object] ],
+224 silly resolved     version: '1.0.8-1.2.3',
+224 silly resolved     main: './lib/dateformat',
+224 silly resolved     dependencies: {},
+224 silly resolved     devDependencies: {},
+224 silly resolved     engines: { node: '*' },
+224 silly resolved     repository:
+224 silly resolved      { type: 'git',
+224 silly resolved        url: 'https://github.com/felixge/node-dateformat.git' },
+224 silly resolved     readme: '# dateformat\n\nA node.js package for Steven Levithan\'s excellent [dateFormat()][dateformat] function.\n\n## Modifications\n\n* Removed the `Date.prototype.format` method. Sorry folks, but extending native prototypes is for suckers.\n* Added a `module.exports = dateFormat;` statement at the bottom\n* Added the placeholder `N` to get the ISO 8601 numeric representation of the day of the week\n\n## Installation\n\n```bash\n$ npm install dateformat\n```\n\n## Usage\n\nAs taken from Steven\'s post, modified to match the Modifications listed above:\n```js\n    var dateFormat = require(\'dateformat\');\n    var now = new Date();\n\n    // Basic usage\n    dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");\n    // Saturday, June 9th, 2007, 5:46:21 PM\n\n    // You can use one of several named masks\n    dateFormat(now, "isoDateTime");\n    // 2007-06-09T17:46:21\n\n    // ...Or add your own\n    dateFormat.masks.hammerTime = \'HH:MM! "Can\\\'t touch this!"\';\n    dateFormat(now, "hammerTime");\n    // 17:46! Can\'t touch this!\n\n    // When using the standalone dateFormat function,\n    // you can also provide the date as a string\n    dateFormat("Jun 9 2007", "fullDate");\n    // Saturday, June 9, 2007\n\n    // Note that if you don\'t include the mask argument,\n    // dateFormat.masks.default is used\n    dateFormat(now);\n    // Sat Jun 09 2007 17:46:21\n\n    // And if you don\'t include the date argument,\n    // the current date and time is used\n    dateFormat();\n    // Sat Jun 09 2007 17:46:22\n\n    // You can also skip the date argument (as long as your mask doesn\'t\n    // contain any numbers), in which case the current date/time is used\n    dateFormat("longTime");\n    // 5:46:22 PM EST\n\n    // And finally, you can convert local time to UTC time. Simply pass in\n    // true as an additional argument (no argument skipping allowed in this case):\n    dateFormat(now, "longTime", true);\n    // 10:46:21 PM UTC\n\n    // ...Or add the prefix "UTC:" or "GMT:" to your mask.\n    dateFormat(now, "UTC:h:MM:ss TT Z");\n    // 10:46:21 PM UTC\n\n    // You can also get the ISO 8601 week of the year:\n    dateFormat(now, "W");\n    // 42\n\n    // and also get the ISO 8601 numeric representation of the day of the week:\n    dateFormat(now,"N");\n    // 6\n```\n## License\n\n(c) 2007-2009 Steven Levithan [stevenlevithan.com][stevenlevithan], MIT license.\n\n[dateformat]: http://blog.stevenlevithan.com/archives/date-time-format\n[stevenlevithan]: http://stevenlevithan.com/\n',
+224 silly resolved     readmeFilename: 'Readme.md',
+224 silly resolved     bugs: { url: 'https://github.com/felixge/node-dateformat/issues' },
+224 silly resolved     _id: 'dateformat@1.0.8-1.2.3',
+224 silly resolved     _from: 'dateformat@~1.0.6' },
+224 silly resolved   { name: 'ibrik',
+224 silly resolved     description: 'CoffeeScript coverage tool',
+224 silly resolved     homepage: 'https://github.com/Constellation/ibrik',
+224 silly resolved     main: './lib/ibrik',
+224 silly resolved     directories: { lib: './lib', tools: './tools' },
+224 silly resolved     bin: { ibrik: './bin/ibrik' },
+224 silly resolved     version: '1.0.1',
+224 silly resolved     engines: { node: '>=0.4.0' },
+224 silly resolved     maintainers: [ [Object] ],
+224 silly resolved     repository: { type: 'git', url: 'git://github.com/Constellation/ibrik.git' },
+224 silly resolved     dependencies:
+224 silly resolved      { 'coffee-script-redux': 'git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3',
+224 silly resolved        istanbul: '*',
+224 silly resolved        optimist: '*',
+224 silly resolved        escodegen: '*',
+224 silly resolved        mkdirp: '*',
+224 silly resolved        which: '*',
+224 silly resolved        estraverse: '*' },
+224 silly resolved     devDependencies: { mocha: '*', chai: '*' },
+224 silly resolved     licenses: [ [Object] ],
+224 silly resolved     scripts: { test: 'mocha', build: 'make build', watch: 'make watch' },
+224 silly resolved     readme: '## Ibrik - CoffeeScript meets Istanbul\n\nIbrik ([ibrik](http://github.com/Constellation/ibrik)) is\ncode coverage tool for CoffeeScript.\nIt uses [istanbul](https://github.com/gotwarlost/istanbul) and [CoffeeScriptRedux compiler](https://github.com/michaelficarra/CoffeeScriptRedux). Internally, it uses Mozilla JS AST as its IR.\n\n\n### Install\n\nibrik can be used in in a Node.js application via the package manager:\n\n    npm install -g ibrik\n\n\n### Usage\n\nlike this\n```sh\nibrik cover script.coffee\nistanbul report html\nopen coverage/index.html\n```\n\n### License\n\nCopyright (C) 2012 [Yusuke Suzuki](http://github.com/Constellation)\n (twitter: [@Constellation](http://twitter.com/Constellation)) and other contributors.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n  * Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n  * Redistributions in binary form must reproduce the above copyright\n    notice, this list of conditions and the following disclaimer in the\n    documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n### Status\n\n[![Build Status](https://secure.travis-ci.org/Constellation/ibrik.png)](http://travis-ci.org/Constellation/ibrik)\n',
+224 silly resolved     readmeFilename: 'README.md',
+224 silly resolved     bugs: { url: 'https://github.com/Constellation/ibrik/issues' },
+224 silly resolved     _id: 'ibrik@1.0.1',
+224 silly resolved     _from: 'ibrik@~1.0.1' } ]
+225 info install istanbul@0.1.46 into /Users/imseonmyeong/sky15/node_modules/karma-coverage
+226 info install dateformat@1.0.8-1.2.3 into /Users/imseonmyeong/sky15/node_modules/karma-coverage
+227 info install ibrik@1.0.1 into /Users/imseonmyeong/sky15/node_modules/karma-coverage
+228 info installOne istanbul@0.1.46
+229 info installOne dateformat@1.0.8-1.2.3
+230 info installOne ibrik@1.0.1
+231 info /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/istanbul unbuild
+232 info /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat unbuild
+233 info /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik unbuild
+234 verbose tar unpack /Users/imseonmyeong/.npm/istanbul/0.1.46/package.tgz
+235 silly lockFile de10c6e0-a-coverage-node-modules-istanbul tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/istanbul
+236 verbose lock tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/istanbul /Users/imseonmyeong/.npm/de10c6e0-a-coverage-node-modules-istanbul.lock
+237 silly lockFile 960ebe05--npm-istanbul-0-1-46-package-tgz tar:///Users/imseonmyeong/.npm/istanbul/0.1.46/package.tgz
+238 verbose lock tar:///Users/imseonmyeong/.npm/istanbul/0.1.46/package.tgz /Users/imseonmyeong/.npm/960ebe05--npm-istanbul-0-1-46-package-tgz.lock
+239 verbose tar unpack /Users/imseonmyeong/.npm/dateformat/1.0.8-1.2.3/package.tgz
+240 silly lockFile 1167830b-coverage-node-modules-dateformat tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat
+241 verbose lock tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat /Users/imseonmyeong/.npm/1167830b-coverage-node-modules-dateformat.lock
+242 silly lockFile ba5fe460-teformat-1-0-8-1-2-3-package-tgz tar:///Users/imseonmyeong/.npm/dateformat/1.0.8-1.2.3/package.tgz
+243 verbose lock tar:///Users/imseonmyeong/.npm/dateformat/1.0.8-1.2.3/package.tgz /Users/imseonmyeong/.npm/ba5fe460-teformat-1-0-8-1-2-3-package-tgz.lock
+244 verbose tar unpack /Users/imseonmyeong/.npm/ibrik/1.0.1/package.tgz
+245 silly lockFile fa8133cf-arma-coverage-node-modules-ibrik tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik
+246 verbose lock tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik /Users/imseonmyeong/.npm/fa8133cf-arma-coverage-node-modules-ibrik.lock
+247 silly lockFile 40db504e-eong-npm-ibrik-1-0-1-package-tgz tar:///Users/imseonmyeong/.npm/ibrik/1.0.1/package.tgz
+248 verbose lock tar:///Users/imseonmyeong/.npm/ibrik/1.0.1/package.tgz /Users/imseonmyeong/.npm/40db504e-eong-npm-ibrik-1-0-1-package-tgz.lock
+249 silly gunzTarPerm modes [ '755', '644' ]
+250 silly gunzTarPerm modes [ '755', '644' ]
+251 silly gunzTarPerm modes [ '755', '644' ]
+252 silly gunzTarPerm extractEntry package.json
+253 silly gunzTarPerm extractEntry package.json
+254 silly gunzTarPerm extractEntry package.json
+255 silly gunzTarPerm extractEntry README.md
+256 silly gunzTarPerm extractEntry LICENSE
+257 silly gunzTarPerm extractEntry LICENSE
+258 silly gunzTarPerm extractEntry Readme.md
+259 silly gunzTarPerm extractEntry README.md
+260 silly gunzTarPerm extractEntry LICENSE.BSD
+261 silly gunzTarPerm extractEntry lib/dateformat.js
+262 silly gunzTarPerm extractEntry test/basic.js
+263 silly gunzTarPerm extractEntry index.js
+264 silly gunzTarPerm extractEntry Makefile
+265 silly gunzTarPerm extractEntry bin/ibrik
+266 silly gunzTarPerm extractEntry CHANGELOG.md
+267 silly gunzTarPerm extractEntry test/test_dayofweek.js
+268 silly gunzTarPerm extractEntry test/test_weekofyear.js
+269 silly gunzTarPerm extractEntry test/test_weekofyear.sh
+270 silly gunzTarPerm extractEntry lib/command.js
+271 silly gunzTarPerm extractEntry lib/cover.js
+272 silly gunzTarPerm extractEntry lib/cli.js
+273 silly gunzTarPerm extractEntry lib/register-plugins.js
+274 silly gunzTarPerm extractEntry lib/hook.js
+275 silly gunzTarPerm extractEntry lib/ibrik.js
+276 silly gunzTarPerm extractEntry lib/instrumenter.js
+277 silly gunzTarPerm extractEntry lib/hook.js
+278 silly gunzTarPerm extractEntry lib/instrumenter.js
+279 silly gunzTarPerm extractEntry lib/report.js
+280 silly gunzTarPerm extractEntry tools/watch.coffee
+281 silly gunzTarPerm extractEntry lib/collector.js
+282 silly gunzTarPerm extractEntry lib/object-utils.js
+283 silly gunzTarPerm extractEntry lib/command/check-coverage.js
+284 silly gunzTarPerm extractEntry lib/command/cover.js
+285 silly gunzTarPerm extractEntry lib/command/help.js
+286 silly gunzTarPerm extractEntry lib/command/index.js
+287 silly gunzTarPerm extractEntry lib/command/instrument.js
+288 silly gunzTarPerm extractEntry lib/command/report.js
+289 silly lockFile 1167830b-coverage-node-modules-dateformat tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat
+290 silly lockFile 1167830b-coverage-node-modules-dateformat tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat
+291 silly lockFile ba5fe460-teformat-1-0-8-1-2-3-package-tgz tar:///Users/imseonmyeong/.npm/dateformat/1.0.8-1.2.3/package.tgz
+292 silly lockFile ba5fe460-teformat-1-0-8-1-2-3-package-tgz tar:///Users/imseonmyeong/.npm/dateformat/1.0.8-1.2.3/package.tgz
+293 info preinstall dateformat@1.0.8-1.2.3
+294 verbose readDependencies using package.json deps
+295 verbose readDependencies using package.json deps
+296 silly resolved []
+297 verbose about to build /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat
+298 info build /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/dateformat
+299 verbose linkStuff [ false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   '/Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules' ]
+300 info linkStuff dateformat@1.0.8-1.2.3
+301 verbose linkBins dateformat@1.0.8-1.2.3
+302 verbose linkMans dateformat@1.0.8-1.2.3
+303 verbose rebuildBundles dateformat@1.0.8-1.2.3
+304 info install dateformat@1.0.8-1.2.3
+305 info postinstall dateformat@1.0.8-1.2.3
+306 silly gunzTarPerm extractEntry lib/command/test.js
+307 silly gunzTarPerm extractEntry lib/command/common/run-with-cover.js
+308 silly lockFile fa8133cf-arma-coverage-node-modules-ibrik tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik
+309 silly lockFile fa8133cf-arma-coverage-node-modules-ibrik tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik
+310 silly lockFile 40db504e-eong-npm-ibrik-1-0-1-package-tgz tar:///Users/imseonmyeong/.npm/ibrik/1.0.1/package.tgz
+311 silly lockFile 40db504e-eong-npm-ibrik-1-0-1-package-tgz tar:///Users/imseonmyeong/.npm/ibrik/1.0.1/package.tgz
+312 info preinstall ibrik@1.0.1
+313 verbose readDependencies using package.json deps
+314 verbose readDependencies using package.json deps
+315 verbose cache add [ 'coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3',
+315 verbose cache add   null ]
+316 verbose cache add name=undefined spec="coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3" args=["coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3",null]
+317 verbose parsed url { protocol: null,
+317 verbose parsed url   slashes: null,
+317 verbose parsed url   auth: null,
+317 verbose parsed url   host: null,
+317 verbose parsed url   port: null,
+317 verbose parsed url   hostname: null,
+317 verbose parsed url   hash: '#9895cd1641fdf3a2424e662ab7583726bb0e35b3',
+317 verbose parsed url   search: null,
+317 verbose parsed url   query: null,
+317 verbose parsed url   pathname: 'coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git',
+317 verbose parsed url   path: 'coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git',
+317 verbose parsed url   href: 'coffee-script-redux@git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3' }
+318 verbose cache add name="coffee-script-redux" spec="git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3" args=["coffee-script-redux","git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3"]
+319 verbose parsed url { protocol: 'git+https:',
+319 verbose parsed url   slashes: true,
+319 verbose parsed url   auth: null,
+319 verbose parsed url   host: 'github.com',
+319 verbose parsed url   port: null,
+319 verbose parsed url   hostname: 'github.com',
+319 verbose parsed url   hash: '#9895cd1641fdf3a2424e662ab7583726bb0e35b3',
+319 verbose parsed url   search: null,
+319 verbose parsed url   query: null,
+319 verbose parsed url   pathname: '/michaelficarra/CoffeeScriptRedux.git',
+319 verbose parsed url   path: '/michaelficarra/CoffeeScriptRedux.git',
+319 verbose parsed url   href: 'git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3' }
+320 silly lockFile d3428e98-41fdf3a2424e662ab7583726bb0e35b3 git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3
+321 verbose lock git+https://github.com/michaelficarra/CoffeeScriptRedux.git#9895cd1641fdf3a2424e662ab7583726bb0e35b3 /Users/imseonmyeong/.npm/d3428e98-41fdf3a2424e662ab7583726bb0e35b3.lock
+322 verbose cache add [ 'optimist@*', null ]
+323 verbose cache add name=undefined spec="optimist@*" args=["optimist@*",null]
+324 verbose parsed url { protocol: null,
+324 verbose parsed url   slashes: null,
+324 verbose parsed url   auth: null,
+324 verbose parsed url   host: null,
+324 verbose parsed url   port: null,
+324 verbose parsed url   hostname: null,
+324 verbose parsed url   hash: null,
+324 verbose parsed url   search: null,
+324 verbose parsed url   query: null,
+324 verbose parsed url   pathname: 'optimist@*',
+324 verbose parsed url   path: 'optimist@*',
+324 verbose parsed url   href: 'optimist@*' }
+325 verbose cache add name="optimist" spec="*" args=["optimist","*"]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: '*',
+326 verbose parsed url   path: '*',
+326 verbose parsed url   href: '*' }
+327 verbose addNamed [ 'optimist', '*' ]
+328 verbose addNamed [ null, '*' ]
+329 silly lockFile 942cd351-optimist optimist@*
+330 verbose lock optimist@* /Users/imseonmyeong/.npm/942cd351-optimist.lock
+331 verbose cache add [ 'escodegen@*', null ]
+332 verbose cache add name=undefined spec="escodegen@*" args=["escodegen@*",null]
+333 verbose parsed url { protocol: null,
+333 verbose parsed url   slashes: null,
+333 verbose parsed url   auth: null,
+333 verbose parsed url   host: null,
+333 verbose parsed url   port: null,
+333 verbose parsed url   hostname: null,
+333 verbose parsed url   hash: null,
+333 verbose parsed url   search: null,
+333 verbose parsed url   query: null,
+333 verbose parsed url   pathname: 'escodegen@*',
+333 verbose parsed url   path: 'escodegen@*',
+333 verbose parsed url   href: 'escodegen@*' }
+334 verbose cache add name="escodegen" spec="*" args=["escodegen","*"]
+335 verbose parsed url { protocol: null,
+335 verbose parsed url   slashes: null,
+335 verbose parsed url   auth: null,
+335 verbose parsed url   host: null,
+335 verbose parsed url   port: null,
+335 verbose parsed url   hostname: null,
+335 verbose parsed url   hash: null,
+335 verbose parsed url   search: null,
+335 verbose parsed url   query: null,
+335 verbose parsed url   pathname: '*',
+335 verbose parsed url   path: '*',
+335 verbose parsed url   href: '*' }
+336 verbose addNamed [ 'escodegen', '*' ]
+337 verbose addNamed [ null, '*' ]
+338 silly lockFile 597aae0b-escodegen escodegen@*
+339 verbose lock escodegen@* /Users/imseonmyeong/.npm/597aae0b-escodegen.lock
+340 verbose cache add [ 'mkdirp@*', null ]
+341 verbose cache add name=undefined spec="mkdirp@*" args=["mkdirp@*",null]
+342 verbose parsed url { protocol: null,
+342 verbose parsed url   slashes: null,
+342 verbose parsed url   auth: null,
+342 verbose parsed url   host: null,
+342 verbose parsed url   port: null,
+342 verbose parsed url   hostname: null,
+342 verbose parsed url   hash: null,
+342 verbose parsed url   search: null,
+342 verbose parsed url   query: null,
+342 verbose parsed url   pathname: 'mkdirp@*',
+342 verbose parsed url   path: 'mkdirp@*',
+342 verbose parsed url   href: 'mkdirp@*' }
+343 verbose cache add name="mkdirp" spec="*" args=["mkdirp","*"]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: '*',
+344 verbose parsed url   path: '*',
+344 verbose parsed url   href: '*' }
+345 verbose addNamed [ 'mkdirp', '*' ]
+346 verbose addNamed [ null, '*' ]
+347 silly lockFile 49c57f5b-mkdirp mkdirp@*
+348 verbose lock mkdirp@* /Users/imseonmyeong/.npm/49c57f5b-mkdirp.lock
+349 silly addNameRange { name: 'optimist', range: '*', hasData: false }
+350 verbose cache add [ 'which@*', null ]
+351 verbose cache add name=undefined spec="which@*" args=["which@*",null]
+352 verbose parsed url { protocol: null,
+352 verbose parsed url   slashes: null,
+352 verbose parsed url   auth: null,
+352 verbose parsed url   host: null,
+352 verbose parsed url   port: null,
+352 verbose parsed url   hostname: null,
+352 verbose parsed url   hash: null,
+352 verbose parsed url   search: null,
+352 verbose parsed url   query: null,
+352 verbose parsed url   pathname: 'which@*',
+352 verbose parsed url   path: 'which@*',
+352 verbose parsed url   href: 'which@*' }
+353 verbose cache add name="which" spec="*" args=["which","*"]
+354 verbose parsed url { protocol: null,
+354 verbose parsed url   slashes: null,
+354 verbose parsed url   auth: null,
+354 verbose parsed url   host: null,
+354 verbose parsed url   port: null,
+354 verbose parsed url   hostname: null,
+354 verbose parsed url   hash: null,
+354 verbose parsed url   search: null,
+354 verbose parsed url   query: null,
+354 verbose parsed url   pathname: '*',
+354 verbose parsed url   path: '*',
+354 verbose parsed url   href: '*' }
+355 verbose addNamed [ 'which', '*' ]
+356 verbose addNamed [ null, '*' ]
+357 silly lockFile a275e88c-which which@*
+358 verbose lock which@* /Users/imseonmyeong/.npm/a275e88c-which.lock
+359 silly addNameRange { name: 'escodegen', range: '*', hasData: false }
+360 verbose cache add [ 'estraverse@*', null ]
+361 verbose cache add name=undefined spec="estraverse@*" args=["estraverse@*",null]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: 'estraverse@*',
+362 verbose parsed url   path: 'estraverse@*',
+362 verbose parsed url   href: 'estraverse@*' }
+363 verbose cache add name="estraverse" spec="*" args=["estraverse","*"]
+364 verbose parsed url { protocol: null,
+364 verbose parsed url   slashes: null,
+364 verbose parsed url   auth: null,
+364 verbose parsed url   host: null,
+364 verbose parsed url   port: null,
+364 verbose parsed url   hostname: null,
+364 verbose parsed url   hash: null,
+364 verbose parsed url   search: null,
+364 verbose parsed url   query: null,
+364 verbose parsed url   pathname: '*',
+364 verbose parsed url   path: '*',
+364 verbose parsed url   href: '*' }
+365 verbose addNamed [ 'estraverse', '*' ]
+366 verbose addNamed [ null, '*' ]
+367 silly lockFile 771f3482-estraverse estraverse@*
+368 verbose lock estraverse@* /Users/imseonmyeong/.npm/771f3482-estraverse.lock
+369 silly addNameRange { name: 'mkdirp', range: '*', hasData: false }
+370 verbose addRemoteGit [ 'https://github.com/michaelficarra/CoffeeScriptRedux.git',
+370 verbose addRemoteGit   '9895cd1641fdf3a2424e662ab7583726bb0e35b3' ]
+371 silly gunzTarPerm extractEntry lib/report/cobertura.js
+372 silly gunzTarPerm extractEntry lib/report/index.js
+373 silly addNameRange { name: 'which', range: '*', hasData: false }
+374 silly addNameRange { name: 'estraverse', range: '*', hasData: false }
+375 verbose url raw optimist
+376 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+377 verbose url resolved https://registry.npmjs.org/optimist
+378 info trying registry request attempt 1 at 21:23:25
+379 verbose etag "76ZAI9O97KGVNGML7RVRRBVJA"
+380 http GET https://registry.npmjs.org/optimist
+381 verbose url raw escodegen
+382 verbose url resolving [ 'https://registry.npmjs.org/', './escodegen' ]
+383 verbose url resolved https://registry.npmjs.org/escodegen
+384 info trying registry request attempt 1 at 21:23:25
+385 verbose etag "6RKM8VQ2U9K1JNZNLMKHN5TFD"
+386 http GET https://registry.npmjs.org/escodegen
+387 verbose url raw mkdirp
+388 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+389 verbose url resolved https://registry.npmjs.org/mkdirp
+390 info trying registry request attempt 1 at 21:23:25
+391 verbose etag "5FARIAAE0490H7WN5U9SWG9X0"
+392 http GET https://registry.npmjs.org/mkdirp
+393 verbose url raw which
+394 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+395 verbose url resolved https://registry.npmjs.org/which
+396 info trying registry request attempt 1 at 21:23:25
+397 verbose etag "4U42AUANZD43I26W7W04SHTG3"
+398 http GET https://registry.npmjs.org/which
+399 verbose url raw estraverse
+400 verbose url resolving [ 'https://registry.npmjs.org/', './estraverse' ]
+401 verbose url resolved https://registry.npmjs.org/estraverse
+402 info trying registry request attempt 1 at 21:23:25
+403 verbose etag "A243PEB2X5XBQOLRY1OERDI8T"
+404 http GET https://registry.npmjs.org/estraverse
+405 verbose git remote.origin.url https://github.com/michaelficarra/CoffeeScriptRedux.git
+406 silly gunzTarPerm extractEntry lib/report/json.js
+407 silly gunzTarPerm extractEntry lib/report/lcov.js
+408 silly gunzTarPerm extractEntry lib/report/html.js
+409 silly gunzTarPerm extractEntry lib/report/none.js
+410 silly gunzTarPerm extractEntry lib/report/teamcity.js
+411 silly gunzTarPerm extractEntry lib/report/text-summary.js
+412 silly gunzTarPerm extractEntry lib/report/text.js
+413 silly gunzTarPerm extractEntry lib/report/lcovonly.js
+414 silly gunzTarPerm extractEntry lib/report/templates/foot.txt
+415 silly gunzTarPerm extractEntry lib/report/templates/head.txt
+416 silly gunzTarPerm extractEntry lib/store/fslookup.js
+417 silly gunzTarPerm extractEntry lib/store/index.js
+418 silly gunzTarPerm extractEntry lib/store/memory.js
+419 silly gunzTarPerm extractEntry lib/store/tmp.js
+420 silly gunzTarPerm extractEntry lib/util/factory.js
+421 silly gunzTarPerm extractEntry lib/util/file-writer.js
+422 silly gunzTarPerm extractEntry lib/util/flow-control.js
+423 silly gunzTarPerm extractEntry lib/util/help-formatter.js
+424 silly gunzTarPerm extractEntry lib/util/file-matcher.js
+425 silly gunzTarPerm extractEntry lib/util/insertion-text.js
+426 silly gunzTarPerm extractEntry lib/util/meta.js
+427 silly gunzTarPerm extractEntry lib/util/tree-summarizer.js
+428 silly gunzTarPerm extractEntry lib/util/writer.js
+429 silly gunzTarPerm extractEntry lib/util/yui-load-hook.js
+430 silly gunzTarPerm extractEntry lib/util/input-error.js
+431 silly gunzTarPerm extractEntry lib/vendor/prettify.js
+432 silly gunzTarPerm extractEntry lib/vendor/prettify.css
+433 silly gunzTarPerm extractEntry test/cli-helper.js
+434 silly gunzTarPerm extractEntry test/common.js
+435 silly gunzTarPerm extractEntry test/helper.js
+436 silly gunzTarPerm extractEntry test/loader.js
+437 silly gunzTarPerm extractEntry test/run-again.js
+438 silly gunzTarPerm extractEntry test/run.js
+439 silly gunzTarPerm extractEntry test/browser/test-browser-instrumentation.js
+440 silly gunzTarPerm extractEntry test/browser/support/phantom-test.client.js
+441 silly gunzTarPerm extractEntry test/browser/support/server.js
+442 silly gunzTarPerm extractEntry test/browser/support/index.html
+443 silly gunzTarPerm extractEntry test/cli/package.json
+444 silly gunzTarPerm extractEntry test/cli/test-cobertura-report.js
+445 silly gunzTarPerm extractEntry test/cli/test-cover-command.js
+446 silly gunzTarPerm extractEntry test/cli/test-html-report.js
+447 silly gunzTarPerm extractEntry test/cli/test-check-coverage-command.js
+448 silly gunzTarPerm extractEntry test/cli/test-teamcity-report.js
+449 silly gunzTarPerm extractEntry test/cli/test-lcov-report.js
+450 silly gunzTarPerm extractEntry test/cli/test-lcovonly-report.js
+451 silly gunzTarPerm extractEntry test/cli/test-lots-of-files.js
+452 silly gunzTarPerm extractEntry test/cli/test-none-report.js
+453 silly gunzTarPerm extractEntry test/cli/test-base-cli.js
+454 silly gunzTarPerm extractEntry test/cli/test-report-command.js
+455 silly gunzTarPerm extractEntry test/cli/test-instrument-command.js
+456 silly gunzTarPerm extractEntry test/cli/test-test-command.js
+457 silly gunzTarPerm extractEntry test/cli/test-json-report.js
+458 silly gunzTarPerm extractEntry test/cli/sample-project/amd/ipsum.js
+459 silly gunzTarPerm extractEntry test/cli/sample-project/amd/lorem.js
+460 silly gunzTarPerm extractEntry test/cli/sample-project/lib/bar.js
+461 silly gunzTarPerm extractEntry test/cli/sample-project/lib/foo.js
+462 silly gunzTarPerm extractEntry test/cli/sample-project/lib/util/bad.js
+463 silly gunzTarPerm extractEntry test/cli/sample-project/lib/util/generate-names.js
+464 silly gunzTarPerm extractEntry test/cli/sample-project/test/amd-run.js
+465 silly gunzTarPerm extractEntry test/cli/sample-project/test/global-leak.js
+466 silly gunzTarPerm extractEntry test/cli/sample-project/test/run.js
+467 silly gunzTarPerm extractEntry test/cli/sample-project/vendor/dummy_vendor_lib.js
+468 silly gunzTarPerm extractEntry test/cli/sample-project/node_modules/dependency/index.js
+469 silly gunzTarPerm extractEntry test/cli/sample-project/node_modules/post-require/package.json
+470 silly gunzTarPerm extractEntry test/cli/sample-project/node_modules/post-require/hook.js
+471 silly gunzTarPerm extractEntry test/instrumentation/test-do.js
+472 silly gunzTarPerm extractEntry test/instrumentation/test-for.js
+473 silly gunzTarPerm extractEntry test/instrumentation/test-forin.js
+474 silly gunzTarPerm extractEntry test/instrumentation/test-functions.js
+475 silly gunzTarPerm extractEntry test/instrumentation/test-expressions.js
+476 silly gunzTarPerm extractEntry test/instrumentation/test-misc.js
+477 silly gunzTarPerm extractEntry test/instrumentation/test-statement.js
+478 silly gunzTarPerm extractEntry test/instrumentation/test-strict.js
+479 silly gunzTarPerm extractEntry test/instrumentation/test-switch.js
+480 silly gunzTarPerm extractEntry test/instrumentation/test-while.js
+481 silly gunzTarPerm extractEntry test/instrumentation/test-if.js
+482 silly gunzTarPerm extractEntry test/other/test-summarizer.js
+483 silly gunzTarPerm extractEntry test/other/test-command-xface.js
+484 silly gunzTarPerm extractEntry test/other/test-file-writer.js
+485 silly gunzTarPerm extractEntry test/other/test-help-formatter.js
+486 silly gunzTarPerm extractEntry test/other/test-collector.js
+487 silly gunzTarPerm extractEntry test/other/test-store.js
+488 silly gunzTarPerm extractEntry test/other/test-input-error.js
+489 silly gunzTarPerm extractEntry test/other/test-insertion-text.js
+490 silly gunzTarPerm extractEntry test/other/test-matcher.js
+491 silly gunzTarPerm extractEntry test/other/test-object-utils.js
+492 silly gunzTarPerm extractEntry test/other/test-hook.js
+493 silly gunzTarPerm extractEntry test/other/test-index-xface.js
+494 silly gunzTarPerm extractEntry test/other/data-complete-copy/baz.js
+495 silly gunzTarPerm extractEntry test/other/data-complete-copy/foo.js
+496 silly gunzTarPerm extractEntry test/other/data-complete-copy/fixture.xml
+497 silly gunzTarPerm extractEntry test/other/data-complete-copy/myfile1
+498 silly gunzTarPerm extractEntry test/other/data-complete-copy/myfile2
+499 silly gunzTarPerm extractEntry test/other/data-complete-copy/subdir/x.css
+500 silly gunzTarPerm extractEntry test/other/data/baz.js
+501 silly gunzTarPerm extractEntry test/other/data/foo.js
+502 silly gunzTarPerm extractEntry test/other/data/matcher/top.js
+503 silly gunzTarPerm extractEntry test/other/data/matcher/general/general.js
+504 silly gunzTarPerm extractEntry test/other/data/matcher/general/node_modules/mod-file.js
+505 silly gunzTarPerm extractEntry test/other/data/matcher/lib/lib-top.js
+506 silly gunzTarPerm extractEntry test/other/data/matcher/node_modules/mod-file.js
+507 silly gunzTarPerm extractEntry test/other/data/matcher/node_modules/dep/mod-file.js
+508 silly gunzTarPerm extractEntry yui-coverage-comparison.md
+509 silly lockFile de10c6e0-a-coverage-node-modules-istanbul tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/istanbul
+510 silly lockFile de10c6e0-a-coverage-node-modules-istanbul tar:///Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/istanbul
+511 silly lockFile 960ebe05--npm-istanbul-0-1-46-package-tgz tar:///Users/imseonmyeong/.npm/istanbul/0.1.46/package.tgz
+512 silly lockFile 960ebe05--npm-istanbul-0-1-46-package-tgz tar:///Users/imseonmyeong/.npm/istanbul/0.1.46/package.tgz
+513 info preinstall istanbul@0.1.46
+514 verbose readDependencies using package.json deps
+515 verbose readDependencies using package.json deps
+516 verbose cache add [ 'esprima@1.0.x', null ]
+517 verbose cache add name=undefined spec="esprima@1.0.x" args=["esprima@1.0.x",null]
+518 verbose parsed url { protocol: null,
+518 verbose parsed url   slashes: null,
+518 verbose parsed url   auth: null,
+518 verbose parsed url   host: null,
+518 verbose parsed url   port: null,
+518 verbose parsed url   hostname: null,
+518 verbose parsed url   hash: null,
+518 verbose parsed url   search: null,
+518 verbose parsed url   query: null,
+518 verbose parsed url   pathname: 'esprima@1.0.x',
+518 verbose parsed url   path: 'esprima@1.0.x',
+518 verbose parsed url   href: 'esprima@1.0.x' }
+519 verbose cache add name="esprima" spec="1.0.x" args=["esprima","1.0.x"]
+520 verbose parsed url { protocol: null,
+520 verbose parsed url   slashes: null,
+520 verbose parsed url   auth: null,
+520 verbose parsed url   host: null,
+520 verbose parsed url   port: null,
+520 verbose parsed url   hostname: null,
+520 verbose parsed url   hash: null,
+520 verbose parsed url   search: null,
+520 verbose parsed url   query: null,
+520 verbose parsed url   pathname: '1.0.x',
+520 verbose parsed url   path: '1.0.x',
+520 verbose parsed url   href: '1.0.x' }
+521 verbose addNamed [ 'esprima', '1.0.x' ]
+522 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+523 silly lockFile 5597f4d8-esprima-1-0-x esprima@1.0.x
+524 verbose lock esprima@1.0.x /Users/imseonmyeong/.npm/5597f4d8-esprima-1-0-x.lock
+525 verbose cache add [ 'escodegen@0.0.23', null ]
+526 verbose cache add name=undefined spec="escodegen@0.0.23" args=["escodegen@0.0.23",null]
+527 verbose parsed url { protocol: null,
+527 verbose parsed url   slashes: null,
+527 verbose parsed url   auth: null,
+527 verbose parsed url   host: null,
+527 verbose parsed url   port: null,
+527 verbose parsed url   hostname: null,
+527 verbose parsed url   hash: null,
+527 verbose parsed url   search: null,
+527 verbose parsed url   query: null,
+527 verbose parsed url   pathname: 'escodegen@0.0.23',
+527 verbose parsed url   path: 'escodegen@0.0.23',
+527 verbose parsed url   href: 'escodegen@0.0.23' }
+528 verbose cache add name="escodegen" spec="0.0.23" args=["escodegen","0.0.23"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '0.0.23',
+529 verbose parsed url   path: '0.0.23',
+529 verbose parsed url   href: '0.0.23' }
+530 verbose addNamed [ 'escodegen', '0.0.23' ]
+531 verbose addNamed [ '0.0.23', '0.0.23' ]
+532 silly lockFile 85746567-escodegen-0-0-23 escodegen@0.0.23
+533 verbose lock escodegen@0.0.23 /Users/imseonmyeong/.npm/85746567-escodegen-0-0-23.lock
+534 verbose cache add [ 'handlebars@1.0.x', null ]
+535 verbose cache add name=undefined spec="handlebars@1.0.x" args=["handlebars@1.0.x",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'handlebars@1.0.x',
+536 verbose parsed url   path: 'handlebars@1.0.x',
+536 verbose parsed url   href: 'handlebars@1.0.x' }
+537 verbose cache add name="handlebars" spec="1.0.x" args=["handlebars","1.0.x"]
+538 verbose parsed url { protocol: null,
+538 verbose parsed url   slashes: null,
+538 verbose parsed url   auth: null,
+538 verbose parsed url   host: null,
+538 verbose parsed url   port: null,
+538 verbose parsed url   hostname: null,
+538 verbose parsed url   hash: null,
+538 verbose parsed url   search: null,
+538 verbose parsed url   query: null,
+538 verbose parsed url   pathname: '1.0.x',
+538 verbose parsed url   path: '1.0.x',
+538 verbose parsed url   href: '1.0.x' }
+539 verbose addNamed [ 'handlebars', '1.0.x' ]
+540 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+541 silly lockFile e3c6acff-handlebars-1-0-x handlebars@1.0.x
+542 verbose lock handlebars@1.0.x /Users/imseonmyeong/.npm/e3c6acff-handlebars-1-0-x.lock
+543 verbose cache add [ 'mkdirp@0.3.x', null ]
+544 verbose cache add name=undefined spec="mkdirp@0.3.x" args=["mkdirp@0.3.x",null]
+545 verbose parsed url { protocol: null,
+545 verbose parsed url   slashes: null,
+545 verbose parsed url   auth: null,
+545 verbose parsed url   host: null,
+545 verbose parsed url   port: null,
+545 verbose parsed url   hostname: null,
+545 verbose parsed url   hash: null,
+545 verbose parsed url   search: null,
+545 verbose parsed url   query: null,
+545 verbose parsed url   pathname: 'mkdirp@0.3.x',
+545 verbose parsed url   path: 'mkdirp@0.3.x',
+545 verbose parsed url   href: 'mkdirp@0.3.x' }
+546 verbose cache add name="mkdirp" spec="0.3.x" args=["mkdirp","0.3.x"]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: '0.3.x',
+547 verbose parsed url   path: '0.3.x',
+547 verbose parsed url   href: '0.3.x' }
+548 verbose addNamed [ 'mkdirp', '0.3.x' ]
+549 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+550 silly lockFile 6d3723ce-mkdirp-0-3-x mkdirp@0.3.x
+551 verbose lock mkdirp@0.3.x /Users/imseonmyeong/.npm/6d3723ce-mkdirp-0-3-x.lock
+552 silly addNameRange { name: 'esprima', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+553 verbose cache add [ 'nopt@2.1.x', null ]
+554 verbose cache add name=undefined spec="nopt@2.1.x" args=["nopt@2.1.x",null]
+555 verbose parsed url { protocol: null,
+555 verbose parsed url   slashes: null,
+555 verbose parsed url   auth: null,
+555 verbose parsed url   host: null,
+555 verbose parsed url   port: null,
+555 verbose parsed url   hostname: null,
+555 verbose parsed url   hash: null,
+555 verbose parsed url   search: null,
+555 verbose parsed url   query: null,
+555 verbose parsed url   pathname: 'nopt@2.1.x',
+555 verbose parsed url   path: 'nopt@2.1.x',
+555 verbose parsed url   href: 'nopt@2.1.x' }
+556 verbose cache add name="nopt" spec="2.1.x" args=["nopt","2.1.x"]
+557 verbose parsed url { protocol: null,
+557 verbose parsed url   slashes: null,
+557 verbose parsed url   auth: null,
+557 verbose parsed url   host: null,
+557 verbose parsed url   port: null,
+557 verbose parsed url   hostname: null,
+557 verbose parsed url   hash: null,
+557 verbose parsed url   search: null,
+557 verbose parsed url   query: null,
+557 verbose parsed url   pathname: '2.1.x',
+557 verbose parsed url   path: '2.1.x',
+557 verbose parsed url   href: '2.1.x' }
+558 verbose addNamed [ 'nopt', '2.1.x' ]
+559 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+560 silly lockFile da63e5a1-nopt-2-1-x nopt@2.1.x
+561 verbose lock nopt@2.1.x /Users/imseonmyeong/.npm/da63e5a1-nopt-2-1-x.lock
+562 verbose cache add [ 'fileset@0.1.x', null ]
+563 verbose cache add name=undefined spec="fileset@0.1.x" args=["fileset@0.1.x",null]
+564 verbose parsed url { protocol: null,
+564 verbose parsed url   slashes: null,
+564 verbose parsed url   auth: null,
+564 verbose parsed url   host: null,
+564 verbose parsed url   port: null,
+564 verbose parsed url   hostname: null,
+564 verbose parsed url   hash: null,
+564 verbose parsed url   search: null,
+564 verbose parsed url   query: null,
+564 verbose parsed url   pathname: 'fileset@0.1.x',
+564 verbose parsed url   path: 'fileset@0.1.x',
+564 verbose parsed url   href: 'fileset@0.1.x' }
+565 verbose cache add name="fileset" spec="0.1.x" args=["fileset","0.1.x"]
+566 verbose parsed url { protocol: null,
+566 verbose parsed url   slashes: null,
+566 verbose parsed url   auth: null,
+566 verbose parsed url   host: null,
+566 verbose parsed url   port: null,
+566 verbose parsed url   hostname: null,
+566 verbose parsed url   hash: null,
+566 verbose parsed url   search: null,
+566 verbose parsed url   query: null,
+566 verbose parsed url   pathname: '0.1.x',
+566 verbose parsed url   path: '0.1.x',
+566 verbose parsed url   href: '0.1.x' }
+567 verbose addNamed [ 'fileset', '0.1.x' ]
+568 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+569 silly lockFile 46f5b4e1-fileset-0-1-x fileset@0.1.x
+570 verbose lock fileset@0.1.x /Users/imseonmyeong/.npm/46f5b4e1-fileset-0-1-x.lock
+571 verbose cache add [ 'which@1.0.x', null ]
+572 verbose cache add name=undefined spec="which@1.0.x" args=["which@1.0.x",null]
+573 verbose parsed url { protocol: null,
+573 verbose parsed url   slashes: null,
+573 verbose parsed url   auth: null,
+573 verbose parsed url   host: null,
+573 verbose parsed url   port: null,
+573 verbose parsed url   hostname: null,
+573 verbose parsed url   hash: null,
+573 verbose parsed url   search: null,
+573 verbose parsed url   query: null,
+573 verbose parsed url   pathname: 'which@1.0.x',
+573 verbose parsed url   path: 'which@1.0.x',
+573 verbose parsed url   href: 'which@1.0.x' }
+574 verbose cache add name="which" spec="1.0.x" args=["which","1.0.x"]
+575 verbose parsed url { protocol: null,
+575 verbose parsed url   slashes: null,
+575 verbose parsed url   auth: null,
+575 verbose parsed url   host: null,
+575 verbose parsed url   port: null,
+575 verbose parsed url   hostname: null,
+575 verbose parsed url   hash: null,
+575 verbose parsed url   search: null,
+575 verbose parsed url   query: null,
+575 verbose parsed url   pathname: '1.0.x',
+575 verbose parsed url   path: '1.0.x',
+575 verbose parsed url   href: '1.0.x' }
+576 verbose addNamed [ 'which', '1.0.x' ]
+577 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+578 silly lockFile 2f036e04-which-1-0-x which@1.0.x
+579 verbose lock which@1.0.x /Users/imseonmyeong/.npm/2f036e04-which-1-0-x.lock
+580 verbose cache add [ 'async@0.2.x', null ]
+581 verbose cache add name=undefined spec="async@0.2.x" args=["async@0.2.x",null]
+582 verbose parsed url { protocol: null,
+582 verbose parsed url   slashes: null,
+582 verbose parsed url   auth: null,
+582 verbose parsed url   host: null,
+582 verbose parsed url   port: null,
+582 verbose parsed url   hostname: null,
+582 verbose parsed url   hash: null,
+582 verbose parsed url   search: null,
+582 verbose parsed url   query: null,
+582 verbose parsed url   pathname: 'async@0.2.x',
+582 verbose parsed url   path: 'async@0.2.x',
+582 verbose parsed url   href: 'async@0.2.x' }
+583 verbose cache add name="async" spec="0.2.x" args=["async","0.2.x"]
+584 verbose parsed url { protocol: null,
+584 verbose parsed url   slashes: null,
+584 verbose parsed url   auth: null,
+584 verbose parsed url   host: null,
+584 verbose parsed url   port: null,
+584 verbose parsed url   hostname: null,
+584 verbose parsed url   hash: null,
+584 verbose parsed url   search: null,
+584 verbose parsed url   query: null,
+584 verbose parsed url   pathname: '0.2.x',
+584 verbose parsed url   path: '0.2.x',
+584 verbose parsed url   href: '0.2.x' }
+585 verbose addNamed [ 'async', '0.2.x' ]
+586 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+587 silly lockFile 7933abb7-async-0-2-x async@0.2.x
+588 verbose lock async@0.2.x /Users/imseonmyeong/.npm/7933abb7-async-0-2-x.lock
+589 silly addNameRange { name: 'handlebars',
+589 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+589 silly addNameRange   hasData: false }
+590 verbose cache add [ 'abbrev@1.0.x', null ]
+591 verbose cache add name=undefined spec="abbrev@1.0.x" args=["abbrev@1.0.x",null]
+592 verbose parsed url { protocol: null,
+592 verbose parsed url   slashes: null,
+592 verbose parsed url   auth: null,
+592 verbose parsed url   host: null,
+592 verbose parsed url   port: null,
+592 verbose parsed url   hostname: null,
+592 verbose parsed url   hash: null,
+592 verbose parsed url   search: null,
+592 verbose parsed url   query: null,
+592 verbose parsed url   pathname: 'abbrev@1.0.x',
+592 verbose parsed url   path: 'abbrev@1.0.x',
+592 verbose parsed url   href: 'abbrev@1.0.x' }
+593 verbose cache add name="abbrev" spec="1.0.x" args=["abbrev","1.0.x"]
+594 verbose parsed url { protocol: null,
+594 verbose parsed url   slashes: null,
+594 verbose parsed url   auth: null,
+594 verbose parsed url   host: null,
+594 verbose parsed url   port: null,
+594 verbose parsed url   hostname: null,
+594 verbose parsed url   hash: null,
+594 verbose parsed url   search: null,
+594 verbose parsed url   query: null,
+594 verbose parsed url   pathname: '1.0.x',
+594 verbose parsed url   path: '1.0.x',
+594 verbose parsed url   href: '1.0.x' }
+595 verbose addNamed [ 'abbrev', '1.0.x' ]
+596 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+597 silly lockFile 11738773-abbrev-1-0-x abbrev@1.0.x
+598 verbose lock abbrev@1.0.x /Users/imseonmyeong/.npm/11738773-abbrev-1-0-x.lock
+599 verbose cache add [ 'wordwrap@0.0.x', null ]
+600 verbose cache add name=undefined spec="wordwrap@0.0.x" args=["wordwrap@0.0.x",null]
+601 verbose parsed url { protocol: null,
+601 verbose parsed url   slashes: null,
+601 verbose parsed url   auth: null,
+601 verbose parsed url   host: null,
+601 verbose parsed url   port: null,
+601 verbose parsed url   hostname: null,
+601 verbose parsed url   hash: null,
+601 verbose parsed url   search: null,
+601 verbose parsed url   query: null,
+601 verbose parsed url   pathname: 'wordwrap@0.0.x',
+601 verbose parsed url   path: 'wordwrap@0.0.x',
+601 verbose parsed url   href: 'wordwrap@0.0.x' }
+602 verbose cache add name="wordwrap" spec="0.0.x" args=["wordwrap","0.0.x"]
+603 verbose parsed url { protocol: null,
+603 verbose parsed url   slashes: null,
+603 verbose parsed url   auth: null,
+603 verbose parsed url   host: null,
+603 verbose parsed url   port: null,
+603 verbose parsed url   hostname: null,
+603 verbose parsed url   hash: null,
+603 verbose parsed url   search: null,
+603 verbose parsed url   query: null,
+603 verbose parsed url   pathname: '0.0.x',
+603 verbose parsed url   path: '0.0.x',
+603 verbose parsed url   href: '0.0.x' }
+604 verbose addNamed [ 'wordwrap', '0.0.x' ]
+605 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+606 silly lockFile 8905015a-wordwrap-0-0-x wordwrap@0.0.x
+607 verbose lock wordwrap@0.0.x /Users/imseonmyeong/.npm/8905015a-wordwrap-0-0-x.lock
+608 verbose cache add [ 'resolve@0.5.x', null ]
+609 verbose cache add name=undefined spec="resolve@0.5.x" args=["resolve@0.5.x",null]
+610 verbose parsed url { protocol: null,
+610 verbose parsed url   slashes: null,
+610 verbose parsed url   auth: null,
+610 verbose parsed url   host: null,
+610 verbose parsed url   port: null,
+610 verbose parsed url   hostname: null,
+610 verbose parsed url   hash: null,
+610 verbose parsed url   search: null,
+610 verbose parsed url   query: null,
+610 verbose parsed url   pathname: 'resolve@0.5.x',
+610 verbose parsed url   path: 'resolve@0.5.x',
+610 verbose parsed url   href: 'resolve@0.5.x' }
+611 verbose cache add name="resolve" spec="0.5.x" args=["resolve","0.5.x"]
+612 verbose parsed url { protocol: null,
+612 verbose parsed url   slashes: null,
+612 verbose parsed url   auth: null,
+612 verbose parsed url   host: null,
+612 verbose parsed url   port: null,
+612 verbose parsed url   hostname: null,
+612 verbose parsed url   hash: null,
+612 verbose parsed url   search: null,
+612 verbose parsed url   query: null,
+612 verbose parsed url   pathname: '0.5.x',
+612 verbose parsed url   path: '0.5.x',
+612 verbose parsed url   href: '0.5.x' }
+613 verbose addNamed [ 'resolve', '0.5.x' ]
+614 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+615 silly lockFile 8204c362-resolve-0-5-x resolve@0.5.x
+616 verbose lock resolve@0.5.x /Users/imseonmyeong/.npm/8204c362-resolve-0-5-x.lock
+617 silly addNameRange { name: 'mkdirp', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+618 silly addNameRange { name: 'nopt', range: '>=2.1.0-0 <2.2.0-0', hasData: false }
+619 silly addNameRange { name: 'fileset', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+620 silly addNameRange { name: 'which', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+621 silly addNameRange { name: 'async', range: '>=0.2.0-0 <0.3.0-0', hasData: false }
+622 silly addNameRange { name: 'abbrev', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+623 silly addNameRange { name: 'wordwrap', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+624 silly addNameRange { name: 'resolve', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+625 verbose url raw esprima
+626 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+627 verbose url resolved https://registry.npmjs.org/esprima
+628 info trying registry request attempt 1 at 21:23:26
+629 verbose etag "6DIOFYYWNFERQPT3BVV1BAKIL"
+630 http GET https://registry.npmjs.org/esprima
+631 verbose url raw handlebars
+632 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+633 verbose url resolved https://registry.npmjs.org/handlebars
+634 info trying registry request attempt 1 at 21:23:26
+635 verbose etag "1S3QN358RNPXFXUABPU1PHE3M"
+636 http GET https://registry.npmjs.org/handlebars
+637 verbose url raw escodegen/0.0.23
+638 verbose url resolving [ 'https://registry.npmjs.org/', './escodegen/0.0.23' ]
+639 verbose url resolved https://registry.npmjs.org/escodegen/0.0.23
+640 info trying registry request attempt 1 at 21:23:26
+641 verbose etag "6RKM8VQ2U9K1JNZNLMKHN5TFD"
+642 http GET https://registry.npmjs.org/escodegen/0.0.23
+643 verbose url raw mkdirp
+644 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+645 verbose url resolved https://registry.npmjs.org/mkdirp
+646 info trying registry request attempt 1 at 21:23:26
+647 verbose etag "5FARIAAE0490H7WN5U9SWG9X0"
+648 http GET https://registry.npmjs.org/mkdirp
+649 verbose url raw which
+650 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+651 verbose url resolved https://registry.npmjs.org/which
+652 info trying registry request attempt 1 at 21:23:26
+653 verbose etag "4U42AUANZD43I26W7W04SHTG3"
+654 http GET https://registry.npmjs.org/which
+655 verbose url raw nopt
+656 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+657 verbose url resolved https://registry.npmjs.org/nopt
+658 info trying registry request attempt 1 at 21:23:26
+659 verbose etag "5D0JNA9NFAY71ZAANMNUNVL3U"
+660 http GET https://registry.npmjs.org/nopt
+661 verbose url raw fileset
+662 verbose url resolving [ 'https://registry.npmjs.org/', './fileset' ]
+663 verbose url resolved https://registry.npmjs.org/fileset
+664 info trying registry request attempt 1 at 21:23:26
+665 verbose etag "6YO47UZMII66CBH1NTVI3FB5L"
+666 http GET https://registry.npmjs.org/fileset
+667 verbose url raw async
+668 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+669 verbose url resolved https://registry.npmjs.org/async
+670 info trying registry request attempt 1 at 21:23:26
+671 verbose etag "AU1JWIL0PWOA8VGCJG446QHXC"
+672 http GET https://registry.npmjs.org/async
+673 verbose url raw abbrev
+674 verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+675 verbose url resolved https://registry.npmjs.org/abbrev
+676 info trying registry request attempt 1 at 21:23:26
+677 verbose etag "D7EFU937SJBVELE2XOSSZEJ6S"
+678 http GET https://registry.npmjs.org/abbrev
+679 verbose url raw wordwrap
+680 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+681 verbose url resolved https://registry.npmjs.org/wordwrap
+682 info trying registry request attempt 1 at 21:23:26
+683 verbose etag "BTMN3NEF4MYXZJU4T0596BNKE"
+684 http GET https://registry.npmjs.org/wordwrap
+685 verbose url raw resolve
+686 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+687 verbose url resolved https://registry.npmjs.org/resolve
+688 info trying registry request attempt 1 at 21:23:26
+689 verbose etag "EOI9MUG73JUQN0DRV8ZMBYW76"
+690 http GET https://registry.npmjs.org/resolve
+691 http 304 https://registry.npmjs.org/escodegen
+692 silly registry.get cb [ 304,
+692 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+692 silly registry.get     server: 'Apache',
+692 silly registry.get     via: '1.1 varnish',
+692 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:25 GMT',
+692 silly registry.get     'cache-control': 'max-age=30',
+692 silly registry.get     etag: '"6RKM8VQ2U9K1JNZNLMKHN5TFD"',
+692 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+692 silly registry.get     'x-cache': 'HIT',
+692 silly registry.get     'x-cache-hits': '1',
+692 silly registry.get     'x-timer': 'S1405686205.325029,VS0,VE0',
+692 silly registry.get     vary: 'Accept',
+692 silly registry.get     'content-length': '0',
+692 silly registry.get     'keep-alive': 'timeout=10, max=50',
+692 silly registry.get     connection: 'Keep-Alive' } ]
+693 verbose etag escodegen from cache
+694 silly addNameRange number 2 { name: 'escodegen', range: '*', hasData: true }
+695 silly addNameRange versions [ 'escodegen',
+695 silly addNameRange   [ '0.0.1',
+695 silly addNameRange     '0.0.2',
+695 silly addNameRange     '0.0.3',
+695 silly addNameRange     '0.0.4',
+695 silly addNameRange     '0.0.5',
+695 silly addNameRange     '0.0.6',
+695 silly addNameRange     '0.0.7',
+695 silly addNameRange     '0.0.8',
+695 silly addNameRange     '0.0.9',
+695 silly addNameRange     '0.0.10',
+695 silly addNameRange     '0.0.11',
+695 silly addNameRange     '0.0.12',
+695 silly addNameRange     '0.0.14',
+695 silly addNameRange     '0.0.15',
+695 silly addNameRange     '0.0.16',
+695 silly addNameRange     '0.0.17',
+695 silly addNameRange     '0.0.18',
+695 silly addNameRange     '0.0.19',
+695 silly addNameRange     '0.0.20',
+695 silly addNameRange     '0.0.21',
+695 silly addNameRange     '0.0.22',
+695 silly addNameRange     '0.0.23',
+695 silly addNameRange     '0.0.24',
+695 silly addNameRange     '0.0.25',
+695 silly addNameRange     '0.0.26',
+695 silly addNameRange     '0.0.27',
+695 silly addNameRange     '0.0.28',
+695 silly addNameRange     '1.0.0',
+695 silly addNameRange     '1.0.1',
+695 silly addNameRange     '1.1.0',
+695 silly addNameRange     '1.2.0',
+695 silly addNameRange     '1.3.0',
+695 silly addNameRange     '1.3.1',
+695 silly addNameRange     '1.3.2',
+695 silly addNameRange     '1.3.3' ] ]
+696 verbose addNamed [ 'escodegen', '1.3.3' ]
+697 verbose addNamed [ '1.3.3', '1.3.3' ]
+698 silly lockFile 9d8bcdba-escodegen-1-3-3 escodegen@1.3.3
+699 verbose lock escodegen@1.3.3 /Users/imseonmyeong/.npm/9d8bcdba-escodegen-1-3-3.lock
+700 silly lockFile 9d8bcdba-escodegen-1-3-3 escodegen@1.3.3
+701 silly lockFile 9d8bcdba-escodegen-1-3-3 escodegen@1.3.3
+702 silly lockFile 597aae0b-escodegen escodegen@*
+703 silly lockFile 597aae0b-escodegen escodegen@*
+704 http 304 https://registry.npmjs.org/esprima
+705 silly registry.get cb [ 304,
+705 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+705 silly registry.get     server: 'Apache',
+705 silly registry.get     via: '1.1 varnish',
+705 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:23 GMT',
+705 silly registry.get     'cache-control': 'max-age=60',
+705 silly registry.get     etag: '"6DIOFYYWNFERQPT3BVV1BAKIL"',
+705 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+705 silly registry.get     'x-cache': 'HIT',
+705 silly registry.get     'x-cache-hits': '2',
+705 silly registry.get     'x-timer': 'S1405686205.433040,VS0,VE0',
+705 silly registry.get     vary: 'Accept',
+705 silly registry.get     'content-length': '0',
+705 silly registry.get     'keep-alive': 'timeout=10, max=49',
+705 silly registry.get     connection: 'Keep-Alive' } ]
+706 verbose etag esprima from cache
+707 silly addNameRange number 2 { name: 'esprima', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+708 silly addNameRange versions [ 'esprima',
+708 silly addNameRange   [ '0.7.0',
+708 silly addNameRange     '0.8.0',
+708 silly addNameRange     '0.8.1',
+708 silly addNameRange     '0.8.2',
+708 silly addNameRange     '0.9.0',
+708 silly addNameRange     '0.9.1',
+708 silly addNameRange     '0.9.2',
+708 silly addNameRange     '0.9.3',
+708 silly addNameRange     '0.9.4',
+708 silly addNameRange     '0.9.5',
+708 silly addNameRange     '0.9.6',
+708 silly addNameRange     '0.9.7',
+708 silly addNameRange     '0.9.8',
+708 silly addNameRange     '0.9.9',
+708 silly addNameRange     '1.0.0',
+708 silly addNameRange     '1.0.1',
+708 silly addNameRange     '1.0.2',
+708 silly addNameRange     '1.0.3',
+708 silly addNameRange     '1.0.4',
+708 silly addNameRange     '1.1.0',
+708 silly addNameRange     '1.1.1',
+708 silly addNameRange     '1.2.0',
+708 silly addNameRange     '1.2.1',
+708 silly addNameRange     '1.2.2' ] ]
+709 verbose addNamed [ 'esprima', '1.0.4' ]
+710 verbose addNamed [ '1.0.4', '1.0.4' ]
+711 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+712 verbose lock esprima@1.0.4 /Users/imseonmyeong/.npm/758953aa-esprima-1-0-4.lock
+713 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+714 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+715 silly lockFile 5597f4d8-esprima-1-0-x esprima@1.0.x
+716 silly lockFile 5597f4d8-esprima-1-0-x esprima@1.0.x
+717 http 304 https://registry.npmjs.org/handlebars
+718 silly registry.get cb [ 304,
+718 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+718 silly registry.get     server: 'Apache',
+718 silly registry.get     via: '1.1 varnish',
+718 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:18:21 GMT',
+718 silly registry.get     'cache-control': 'max-age=60',
+718 silly registry.get     etag: '"1S3QN358RNPXFXUABPU1PHE3M"',
+718 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+718 silly registry.get     'x-cache': 'HIT',
+718 silly registry.get     'x-cache-hits': '4',
+718 silly registry.get     'x-timer': 'S1405686205.549020,VS0,VE0',
+718 silly registry.get     vary: 'Accept',
+718 silly registry.get     'content-length': '0',
+718 silly registry.get     'keep-alive': 'timeout=10, max=48',
+718 silly registry.get     connection: 'Keep-Alive' } ]
+719 verbose etag handlebars from cache
+720 silly addNameRange number 2 { name: 'handlebars',
+720 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+720 silly addNameRange   hasData: true }
+721 silly addNameRange versions [ 'handlebars',
+721 silly addNameRange   [ '1.0.6',
+721 silly addNameRange     '1.0.6-2',
+721 silly addNameRange     '1.0.7',
+721 silly addNameRange     '1.0.8',
+721 silly addNameRange     '1.0.9',
+721 silly addNameRange     '1.0.10',
+721 silly addNameRange     '1.0.11',
+721 silly addNameRange     '1.0.12',
+721 silly addNameRange     '1.1.0',
+721 silly addNameRange     '1.1.1',
+721 silly addNameRange     '1.1.2',
+721 silly addNameRange     '1.2.0',
+721 silly addNameRange     '1.2.1',
+721 silly addNameRange     '1.3.0',
+721 silly addNameRange     '2.0.0-alpha.1',
+721 silly addNameRange     '2.0.0-alpha.2',
+721 silly addNameRange     '2.0.0-alpha.3',
+721 silly addNameRange     '2.0.0-alpha.4',
+721 silly addNameRange     '1.0.2-beta',
+721 silly addNameRange     '1.0.4-beta',
+721 silly addNameRange     '1.0.5-beta' ] ]
+722 verbose addNamed [ 'handlebars', '1.0.12' ]
+723 verbose addNamed [ '1.0.12', '1.0.12' ]
+724 silly lockFile 75f4e88f-handlebars-1-0-12 handlebars@1.0.12
+725 verbose lock handlebars@1.0.12 /Users/imseonmyeong/.npm/75f4e88f-handlebars-1-0-12.lock
+726 silly lockFile 75f4e88f-handlebars-1-0-12 handlebars@1.0.12
+727 silly lockFile 75f4e88f-handlebars-1-0-12 handlebars@1.0.12
+728 silly lockFile e3c6acff-handlebars-1-0-x handlebars@1.0.x
+729 silly lockFile e3c6acff-handlebars-1-0-x handlebars@1.0.x
+730 http 304 https://registry.npmjs.org/escodegen/0.0.23
+731 silly registry.get cb [ 304,
+731 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+731 silly registry.get     server: 'Apache',
+731 silly registry.get     via: '1.1 varnish',
+731 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:22:12 GMT',
+731 silly registry.get     'cache-control': 'max-age=60',
+731 silly registry.get     etag: '"6RKM8VQ2U9K1JNZNLMKHN5TFD"',
+731 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+731 silly registry.get     'x-cache': 'HIT',
+731 silly registry.get     'x-cache-hits': '2',
+731 silly registry.get     'x-timer': 'S1405686205.656947,VS0,VE0',
+731 silly registry.get     vary: 'Accept',
+731 silly registry.get     'content-length': '0',
+731 silly registry.get     'keep-alive': 'timeout=10, max=47',
+731 silly registry.get     connection: 'Keep-Alive' } ]
+732 verbose etag escodegen/0.0.23 from cache
+733 silly lockFile 85746567-escodegen-0-0-23 escodegen@0.0.23
+734 silly lockFile 85746567-escodegen-0-0-23 escodegen@0.0.23
+735 http 304 https://registry.npmjs.org/which
+736 silly registry.get cb [ 304,
+736 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+736 silly registry.get     server: 'Apache',
+736 silly registry.get     via: '1.1 varnish',
+736 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 00:36:56 GMT',
+736 silly registry.get     'cache-control': 'max-age=1',
+736 silly registry.get     etag: '"4U42AUANZD43I26W7W04SHTG3"',
+736 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+736 silly registry.get     'x-cache': 'HIT',
+736 silly registry.get     'x-cache-hits': '19383',
+736 silly registry.get     'x-timer': 'S1405686205.861530,VS0,VE0',
+736 silly registry.get     vary: 'Accept',
+736 silly registry.get     'content-length': '0',
+736 silly registry.get     'keep-alive': 'timeout=10, max=50',
+736 silly registry.get     connection: 'Keep-Alive' } ]
+737 verbose etag which from cache
+738 silly addNameRange number 2 { name: 'which', range: '*', hasData: true }
+739 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+740 verbose addNamed [ 'which', '1.0.5' ]
+741 verbose addNamed [ '1.0.5', '1.0.5' ]
+742 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+743 verbose lock which@1.0.5 /Users/imseonmyeong/.npm/4aed4494-which-1-0-5.lock
+744 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+745 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+746 silly lockFile a275e88c-which which@*
+747 silly lockFile a275e88c-which which@*
+748 http 304 https://registry.npmjs.org/optimist
+749 silly registry.get cb [ 304,
+749 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+749 silly registry.get     server: 'Apache',
+749 silly registry.get     via: '1.1 varnish',
+749 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:19:35 GMT',
+749 silly registry.get     'cache-control': 'max-age=60',
+749 silly registry.get     etag: '"76ZAI9O97KGVNGML7RVRRBVJA"',
+749 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+749 silly registry.get     'x-cache': 'HIT',
+749 silly registry.get     'x-cache-hits': '11',
+749 silly registry.get     'x-timer': 'S1405686205.881101,VS0,VE0',
+749 silly registry.get     vary: 'Accept',
+749 silly registry.get     'content-length': '0',
+749 silly registry.get     'keep-alive': 'timeout=10, max=50',
+749 silly registry.get     connection: 'Keep-Alive' } ]
+750 verbose etag optimist from cache
+751 silly addNameRange number 2 { name: 'optimist', range: '*', hasData: true }
+752 silly addNameRange versions [ 'optimist',
+752 silly addNameRange   [ '0.0.1',
+752 silly addNameRange     '0.0.2',
+752 silly addNameRange     '0.0.4',
+752 silly addNameRange     '0.0.5',
+752 silly addNameRange     '0.0.6',
+752 silly addNameRange     '0.0.7',
+752 silly addNameRange     '0.1.0',
+752 silly addNameRange     '0.1.1',
+752 silly addNameRange     '0.1.2',
+752 silly addNameRange     '0.1.3',
+752 silly addNameRange     '0.1.4',
+752 silly addNameRange     '0.1.5',
+752 silly addNameRange     '0.1.6',
+752 silly addNameRange     '0.1.7',
+752 silly addNameRange     '0.1.8',
+752 silly addNameRange     '0.1.9',
+752 silly addNameRange     '0.0.3',
+752 silly addNameRange     '0.2.0',
+752 silly addNameRange     '0.2.1',
+752 silly addNameRange     '0.2.2',
+752 silly addNameRange     '0.2.3',
+752 silly addNameRange     '0.2.4',
+752 silly addNameRange     '0.2.5',
+752 silly addNameRange     '0.2.6',
+752 silly addNameRange     '0.2.7',
+752 silly addNameRange     '0.2.8',
+752 silly addNameRange     '0.3.0',
+752 silly addNameRange     '0.3.1',
+752 silly addNameRange     '0.3.3',
+752 silly addNameRange     '0.3.4',
+752 silly addNameRange     '0.3.5',
+752 silly addNameRange     '0.3.6',
+752 silly addNameRange     '0.3.7',
+752 silly addNameRange     '0.4.0',
+752 silly addNameRange     '0.5.0',
+752 silly addNameRange     '0.5.1',
+752 silly addNameRange     '0.5.2',
+752 silly addNameRange     '0.6.0',
+752 silly addNameRange     '0.6.1' ] ]
+753 verbose addNamed [ 'optimist', '0.6.1' ]
+754 verbose addNamed [ '0.6.1', '0.6.1' ]
+755 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+756 verbose lock optimist@0.6.1 /Users/imseonmyeong/.npm/0fc74eb8-optimist-0-6-1.lock
+757 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+758 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+759 silly lockFile 942cd351-optimist optimist@*
+760 silly lockFile 942cd351-optimist optimist@*
+761 http 304 https://registry.npmjs.org/which
+762 silly registry.get cb [ 304,
+762 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:25 GMT',
+762 silly registry.get     server: 'Apache',
+762 silly registry.get     via: '1.1 varnish',
+762 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 00:36:56 GMT',
+762 silly registry.get     'cache-control': 'max-age=1',
+762 silly registry.get     etag: '"4U42AUANZD43I26W7W04SHTG3"',
+762 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+762 silly registry.get     'x-cache': 'HIT',
+762 silly registry.get     'x-cache-hits': '19384',
+762 silly registry.get     'x-timer': 'S1405686205.981569,VS0,VE0',
+762 silly registry.get     vary: 'Accept',
+762 silly registry.get     'content-length': '0',
+762 silly registry.get     'keep-alive': 'timeout=10, max=49',
+762 silly registry.get     connection: 'Keep-Alive' } ]
+763 verbose etag which from cache
+764 silly addNameRange number 2 { name: 'which', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+765 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+766 verbose addNamed [ 'which', '1.0.5' ]
+767 verbose addNamed [ '1.0.5', '1.0.5' ]
+768 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+769 verbose lock which@1.0.5 /Users/imseonmyeong/.npm/4aed4494-which-1-0-5.lock
+770 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+771 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+772 silly lockFile 2f036e04-which-1-0-x which@1.0.x
+773 silly lockFile 2f036e04-which-1-0-x which@1.0.x
+774 http 304 https://registry.npmjs.org/nopt
+775 silly registry.get cb [ 304,
+775 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:26 GMT',
+775 silly registry.get     server: 'Apache',
+775 silly registry.get     via: '1.1 varnish',
+775 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:26 GMT',
+775 silly registry.get     'cache-control': 'max-age=60',
+775 silly registry.get     etag: '"5D0JNA9NFAY71ZAANMNUNVL3U"',
+775 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+775 silly registry.get     'x-cache': 'HIT',
+775 silly registry.get     'x-cache-hits': '1',
+775 silly registry.get     'x-timer': 'S1405686206.005050,VS0,VE0',
+775 silly registry.get     vary: 'Accept',
+775 silly registry.get     'content-length': '0',
+775 silly registry.get     'keep-alive': 'timeout=10, max=49',
+775 silly registry.get     connection: 'Keep-Alive' } ]
+776 verbose etag nopt from cache
+777 silly addNameRange number 2 { name: 'nopt', range: '>=2.1.0-0 <2.2.0-0', hasData: true }
+778 silly addNameRange versions [ 'nopt',
+778 silly addNameRange   [ '1.0.0',
+778 silly addNameRange     '1.0.1',
+778 silly addNameRange     '1.0.2',
+778 silly addNameRange     '1.0.3',
+778 silly addNameRange     '1.0.4',
+778 silly addNameRange     '1.0.5',
+778 silly addNameRange     '1.0.6',
+778 silly addNameRange     '1.0.7',
+778 silly addNameRange     '1.0.8',
+778 silly addNameRange     '1.0.9',
+778 silly addNameRange     '1.0.10',
+778 silly addNameRange     '2.0.0',
+778 silly addNameRange     '2.1.0',
+778 silly addNameRange     '2.1.1',
+778 silly addNameRange     '2.1.2',
+778 silly addNameRange     '2.2.0',
+778 silly addNameRange     '2.2.1',
+778 silly addNameRange     '3.0.0',
+778 silly addNameRange     '3.0.1' ] ]
+779 verbose addNamed [ 'nopt', '2.1.2' ]
+780 verbose addNamed [ '2.1.2', '2.1.2' ]
+781 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+782 verbose lock nopt@2.1.2 /Users/imseonmyeong/.npm/7d0298b9-nopt-2-1-2.lock
+783 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+784 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+785 silly lockFile da63e5a1-nopt-2-1-x nopt@2.1.x
+786 silly lockFile da63e5a1-nopt-2-1-x nopt@2.1.x
+787 http 304 https://registry.npmjs.org/mkdirp
+788 silly registry.get cb [ 304,
+788 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:26 GMT',
+788 silly registry.get     server: 'Apache',
+788 silly registry.get     via: '1.1 varnish',
+788 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:09 GMT',
+788 silly registry.get     'cache-control': 'max-age=60',
+788 silly registry.get     etag: '"5FARIAAE0490H7WN5U9SWG9X0"',
+788 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+788 silly registry.get     'x-cache': 'HIT',
+788 silly registry.get     'x-cache-hits': '2',
+788 silly registry.get     'x-timer': 'S1405686206.160960,VS0,VE0',
+788 silly registry.get     vary: 'Accept',
+788 silly registry.get     'content-length': '0',
+788 silly registry.get     'keep-alive': 'timeout=10, max=46',
+788 silly registry.get     connection: 'Keep-Alive' } ]
+789 verbose etag mkdirp from cache
+790 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+791 silly addNameRange versions [ 'mkdirp',
+791 silly addNameRange   [ '0.0.1',
+791 silly addNameRange     '0.0.2',
+791 silly addNameRange     '0.0.3',
+791 silly addNameRange     '0.0.4',
+791 silly addNameRange     '0.0.5',
+791 silly addNameRange     '0.0.6',
+791 silly addNameRange     '0.0.7',
+791 silly addNameRange     '0.1.0',
+791 silly addNameRange     '0.2.0',
+791 silly addNameRange     '0.2.1',
+791 silly addNameRange     '0.2.2',
+791 silly addNameRange     '0.3.0',
+791 silly addNameRange     '0.3.1',
+791 silly addNameRange     '0.3.2',
+791 silly addNameRange     '0.3.3',
+791 silly addNameRange     '0.3.4',
+791 silly addNameRange     '0.3.5',
+791 silly addNameRange     '0.4.0',
+791 silly addNameRange     '0.4.1',
+791 silly addNameRange     '0.4.2',
+791 silly addNameRange     '0.5.0' ] ]
+792 verbose addNamed [ 'mkdirp', '0.3.5' ]
+793 verbose addNamed [ '0.3.5', '0.3.5' ]
+794 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+795 verbose lock mkdirp@0.3.5 /Users/imseonmyeong/.npm/67d2df2a-mkdirp-0-3-5.lock
+796 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+797 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+798 silly lockFile 6d3723ce-mkdirp-0-3-x mkdirp@0.3.x
+799 silly lockFile 6d3723ce-mkdirp-0-3-x mkdirp@0.3.x
+800 error git fetch -a origin (https://github.com/michaelficarra/CoffeeScriptRedux.git) error: cannot open FETCH_HEAD: Permission denied
+801 silly lockFile 0413540b-aelficarra-CoffeeScriptRedux-git https://github.com/michaelficarra/CoffeeScriptRedux.git
+802 verbose about to build /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik
+803 info /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/ibrik unbuild
+804 info preuninstall ibrik@1.0.1
+805 info uninstall ibrik@1.0.1
+806 verbose false,/Users/imseonmyeong/sky15/node_modules,/Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules unbuild ibrik@1.0.1
+807 verbose /Users/imseonmyeong/sky15/node_modules/karma-coverage/node_modules/.bin,[object Object] binRoot
+808 info postuninstall ibrik@1.0.1
+809 verbose about to build /Users/imseonmyeong/sky15/node_modules/karma-coverage
+810 info /Users/imseonmyeong/sky15/node_modules/karma-coverage unbuild
+811 info preuninstall karma-coverage@0.1.5
+812 info uninstall karma-coverage@0.1.5
+813 verbose true,/Users/imseonmyeong/sky15/node_modules,/Users/imseonmyeong/sky15/node_modules unbuild karma-coverage@0.1.5
+814 info postuninstall karma-coverage@0.1.5
+815 http 304 https://registry.npmjs.org/async
+816 silly registry.get cb [ 304,
+816 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:26 GMT',
+816 silly registry.get     server: 'Apache',
+816 silly registry.get     via: '1.1 varnish',
+816 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:23:23 GMT',
+816 silly registry.get     'cache-control': 'max-age=60',
+816 silly registry.get     etag: '"AU1JWIL0PWOA8VGCJG446QHXC"',
+816 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+816 silly registry.get     'x-cache': 'HIT',
+816 silly registry.get     'x-cache-hits': '2',
+816 silly registry.get     'x-timer': 'S1405686206.565168,VS0,VE0',
+816 silly registry.get     vary: 'Accept',
+816 silly registry.get     'content-length': '0',
+816 silly registry.get     'keep-alive': 'timeout=10, max=48',
+816 silly registry.get     connection: 'Keep-Alive' } ]
+817 verbose etag async from cache
+818 http 304 https://registry.npmjs.org/fileset
+819 silly registry.get cb [ 304,
+819 silly registry.get   { date: 'Fri, 18 Jul 2014 12:23:26 GMT',
+819 silly registry.get     server: 'Apache',
+819 silly registry.get     via: '1.1 varnish',
+819 silly registry.get     'last-modified': 'Fri, 18 Jul 2014 12:11:11 GMT',
+819 silly registry.get     'cache-control': 'max-age=30',
+819 silly registry.get     etag: '"6YO47UZMII66CBH1NTVI3FB5L"',
+819 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+819 silly registry.get     'x-cache': 'HIT',
+819 silly registry.get     'x-cache-hits': '2',
+819 silly registry.get     'x-timer': 'S1405686206.565467,VS0,VE0',
+819 silly registry.get     vary: 'Accept',
+819 silly registry.get     'content-length': '0',
+819 silly registry.get     'keep-alive': 'timeout=10, max=48',
+819 silly registry.get     connection: 'Keep-Alive' } ]
+820 verbose etag fileset from cache
+821 silly addNameRange number 2 { name: 'async', range: '>=0.2.0-0 <0.3.0-0', hasData: true }
+822 silly addNameRange versions [ 'async',
+822 silly addNameRange   [ '0.1.0',
+822 silly addNameRange     '0.1.1',
+822 silly addNameRange     '0.1.2',
+822 silly addNameRange     '0.1.3',
+822 silly addNameRange     '0.1.4',
+822 silly addNameRange     '0.1.5',
+822 silly addNameRange     '0.1.6',
+822 silly addNameRange     '0.1.7',
+822 silly addNameRange     '0.1.8',
+822 silly addNameRange     '0.1.9',
+822 silly addNameRange     '0.1.10',
+822 silly addNameRange     '0.1.11',
+822 silly addNameRange     '0.1.12',
+822 silly addNameRange     '0.1.13',
+822 silly addNameRange     '0.1.14',
+822 silly addNameRange     '0.1.15',
+822 silly addNameRange     '0.1.16',
+822 silly addNameRange     '0.1.17',
+822 silly addNameRange     '0.1.18',
+822 silly addNameRange     '0.1.19',
+822 silly addNameRange     '0.1.20',
+822 silly addNameRange     '0.1.21',
+822 silly addNameRange     '0.1.22',
+822 silly addNameRange     '0.2.0',
+822 silly addNameRange     '0.2.1',
+822 silly addNameRange     '0.2.2',
+822 silly addNameRange     '0.2.3',
+822 silly addNameRange     '0.2.4',
+822 silly addNameRange     '0.2.5',
+822 silly addNameRange     '0.2.6',
+822 silly addNameRange     '0.2.7',
+822 silly addNameRange     '0.2.8',
+822 silly addNameRange     '0.2.9',
+822 silly addNameRange     '0.2.10',
+822 silly addNameRange     '0.3.0',
+822 silly addNameRange     '0.4.0',
+822 silly addNameRange     '0.4.1',
+822 silly addNameRange     '0.5.0',
+822 silly addNameRange     '0.6.0',
+822 silly addNameRange     '0.6.1',
+822 silly addNameRange     '0.6.2',
+822 silly addNameRange     '0.7.0',
+822 silly addNameRange     '0.8.0',
+822 silly addNameRange     '0.9.0' ] ]
+823 verbose addNamed [ 'async', '0.2.10' ]
+824 verbose addNamed [ '0.2.10', '0.2.10' ]
+825 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+826 verbose lock async@0.2.10 /Users/imseonmyeong/.npm/098b530d-async-0-2-10.lock
+827 silly addNameRange number 2 { name: 'fileset', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+828 silly addNameRange versions [ 'fileset',
+828 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+829 verbose addNamed [ 'fileset', '0.1.5' ]
+830 verbose addNamed [ '0.1.5', '0.1.5' ]
+831 silly lockFile cf5640cd-fileset-0-1-5 fileset@0.1.5
+832 verbose lock fileset@0.1.5 /Users/imseonmyeong/.npm/cf5640cd-fileset-0-1-5.lock
+833 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+834 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+835 silly lockFile 7933abb7-async-0-2-x async@0.2.x
+836 silly lockFile 7933abb7-async-0-2-x async@0.2.x
+837 silly lockFile cf5640cd-fileset-0-1-5 fileset@0.1.5
+838 silly lockFile cf5640cd-fileset-0-1-5 fileset@0.1.5
+839 silly lockFile 46f5b4e1-fileset-0-1-x fileset@0.1.x
+840 silly lockFile 46f5b4e1-fileset-0-1-x fileset@0.1.x
+841 error Error: Command failed: error: cannot open FETCH_HEAD: Permission denied
+841 error
+841 error
+841 error     at ChildProcess.exithandler (child_process.js:637:15)
+841 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+841 error     at maybeClose (child_process.js:743:16)
+841 error     at Socket.<anonymous> (child_process.js:956:11)
+841 error     at Socket.EventEmitter.emit (events.js:95:17)
+841 error     at Pipe.close (net.js:466:12)
+842 error If you need help, you may report this *entire* log,
+842 error including the npm and node versions, at:
+842 error     <http://github.com/isaacs/npm/issues>
+843 error System Darwin 13.3.0
+844 error command "node" "/usr/local/bin/npm" "install"
+845 error cwd /Users/imseonmyeong/sky15
+846 error node -v v0.10.25
+847 error npm -v 1.3.24
+848 error code 1
+849 verbose exit [ 1, true ]
