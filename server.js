@@ -8,12 +8,13 @@ var afterStationName = "&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=";
 var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
 
 app.get('/test', function(req, res){
-    console.log('came in');
     stationName = '월평동';
 
     postRequest();
 
     function postRequest(){
+        var dest = apiUrl+stationName+afterStationName+apiKey;
+        console.log(dest);
         request(apiUrl+stationName+afterStationName+apiKey, function(err, response, body){
             if(!err && response.statusCode == 200){
                 console.log(body);
