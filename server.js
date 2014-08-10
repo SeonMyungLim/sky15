@@ -13,7 +13,7 @@ app.get('/test', function(req, res){
     postRequest();
 
     function postRequest(){
-        request(apiUrl+stationName+afterStationName, function(err, response, body){
+        request(apiUrl+stationName+afterStationName+apiKey, function(err, response, body){
             if(!err && response.statusCode == 200){
                 console.log(body);
             }else   console.log(err);
