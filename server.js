@@ -14,13 +14,13 @@ var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11
 var stationName;
 var tmX, tmY;
 
-app.get('/test', function(req, res){
-    stationName = '혜화동';
+app.get('/getAirCond', function(req, res){
+    stationName = '신성동';
     postRequest();
+    console.log(req);
 
     function postRequest(){
         var dest = apiUrl+stationName+queryOption+apiKey;
-        console.log(dest);
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
