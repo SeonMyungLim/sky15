@@ -24,7 +24,11 @@ app.get('/getAirCond', function(req, res){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-                console.log(body);
+                var items = body.items[0];
+                var firstItem = items.item[0];
+                tmX = firstItem.tmX;
+                tmY = firstItem.tmY;
+                console.log(tmX);
                 res.jsonp(body);
             } else {
                 cosole.log(response);
