@@ -14,7 +14,7 @@ var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11
 var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoIngireSvc/getMsrstnList?umdName=";
 var stationName;
 //var queryOption = "&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=";
-var queryOption = "&pageNo=1&numOfRows=10&ServiceKey";
+var queryOption = "&pageNo=1&numOfRows=10&ServiceKey=";
 var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
 
 var tmX, tmY;
