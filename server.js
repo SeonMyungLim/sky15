@@ -20,6 +20,7 @@ app.get('/test', function(req, res){
 
     function postRequest(){
         var dest = apiUrl+stationName+queryOption+apiKey;
+        console.log(dest);
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
