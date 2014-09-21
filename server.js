@@ -24,7 +24,7 @@ app.get('/getAirCond', function(req, res){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-                console.log(response);
+                console.log(body);
                 res.jsonp(body);
             } else {
                 cosole.log(response);
