@@ -17,7 +17,7 @@ var tmX, tmY;
 app.get('/getAirCond', function(req, res){
     stationName = '신성동';
     postRequest();
-    console.log(req);
+    console.log(req.query);
 
     function postRequest(){
         var dest = apiUrl+stationName+queryOption+apiKey;
