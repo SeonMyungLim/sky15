@@ -4,19 +4,14 @@ var request = require('request');
 
 
 //variables for api request
-var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=";
-var stationName;
-var queryOption = "&dataTerm=daily&pageNo=1&numOfRows=10&ServiceKey=";
-var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
-
 //http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=평리동&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=서비스키
 //var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=";
-var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoIngireSvc/getMsrstnList?umdName=";
-var stationName;
 //var queryOption = "&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=";
+var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getMsrstnList?umdName=";
 var queryOption = "&pageNo=1&numOfRows=10&ServiceKey=";
 var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
 
+var stationName;
 var tmX, tmY;
 
 app.get('/test', function(req, res){
