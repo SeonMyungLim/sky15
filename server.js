@@ -7,7 +7,7 @@ var request = require('request');
 //http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=평리동&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=서비스키
 //var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=";
 //var queryOption = "&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=";
-var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getMsrstnList?umdName=";
+var apiUrl = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getTMStdrCrdnt?umdName=";
 var queryOption = "&pageNo=1&numOfRows=10&ServiceKey=";
 var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
 
