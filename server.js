@@ -14,27 +14,30 @@ var queryOptionForCond = "&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=";
 
 var apiKey = "hAkyrmVgIwySVYQbyM36EpnB6R3ZOzxPkjakEQNbHEoGvsVn0X7dAmgo3DiQ/FPP11orgBEKRc5PLX8P4ZrURQ==";
 
-var stationName;
-var tmX, tmY;
+var stationName = '혜화동';
+var tmX = 0, tmY = 0;
 
 
 
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
-    var sidong = conds.sidong;
+    var sidong = '혜화동';
+    if (conds)
+        var sidong = conds.sidong;
+
     postRequest();
     function postRequest(){
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-		var xml_x = new RegExp("<tmX>(.+?)<\/tmX>", "m");
-		var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
-		var tmXTemp = body.match(xml_x);
-		var tmYTemp = body.match(xml_y);
-		tmX = tmXTemp[1];
-		tmY = tmYTemp[1];
-		next();
+                var xml_x = new RegExp("<tmX>(.+?)<\/tmX>", "m");
+                var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
+                var tmXTemp = body.match(xml_x);
+                var tmYTemp = body.match(xml_y);
+                tmX = tmXTemp[1];
+                tmY = tmYTemp[1];
+                next();
             } else {
                 cosole.log(response);
                 console.log(err);
@@ -53,9 +56,9 @@ app.get('/getAirCond', function(req, res, next){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-		var xml_station = new RegExp("<stationName>(.+?)<\/stationName>", "m");
-		stationName = body.match(xml_station)[1];
-		next();
+                var xml_station = new RegExp("<stationName>(.+?)<\/stationName>", "m");
+                stationName = body.match(xml_station)[1];
+                next();
             } else {
                 cosole.log(response);
                 console.log(err);
@@ -72,7 +75,7 @@ app.get('/getAirCond', function(req, res, next){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-		res.send(body);
+                res.send(body);
             } else {
                 cosole.log(response);
                 console.log(err);
