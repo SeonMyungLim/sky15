@@ -27,6 +27,7 @@ app.get('/getAirCond', function(req, res, next){
 
     postRequest();
     function postRequest(){
+        console.log(sidong);
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
 
         request(dest, function(err, response, body){
