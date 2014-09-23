@@ -21,9 +21,7 @@ var tmX = 0, tmY = 0;
 
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
-    var sidong = '혜화동';
-    if (conds.sidong)
-        sidong = conds.sidong;
+    var sidong = conds.sidong || '혜화동';
 
     postRequest();
     function postRequest(){
