@@ -22,13 +22,13 @@ var tmX = 0, tmY = 0;
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
     var sidong = '혜화동';
+    console.log(conds);
     if (conds)
         sidong = conds.sidong;
 
     postRequest();
     function postRequest(){
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
-        console.log(sidong);
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
