@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var request = require('request');
+var parseString = require('xml2js').parseString;
 
 
 var apiUrlForTM = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getTMStdrCrdnt?umdName=";
@@ -74,7 +75,12 @@ app.get('/getAirCond', function(req, res, next){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-                console.log(body.prototype);
+		parseString(body, function (err, result) {
+			var recentItem = result.response.body[0].items[0].item[0];
+			
+			
+
+		});
                 res.send(body);
             } else {
                 cosole.log(response);
