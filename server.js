@@ -77,8 +77,11 @@ app.get('/getAirCond', function(req, res, next){
             if (!err && response.statusCode == 200){
 		parseString(body, function (err, result) {
 			var recentItem = result.response.body[0].items[0].item[0];
-			
-			
+
+            console.log(recentItem);
+
+
+
 
 		});
                 res.send(body);
