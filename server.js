@@ -87,6 +87,11 @@ app.get('/getAirCond', function(req, res, next){
             if (!err && response.statusCode == 200){
                 parseString(body, function (err, result) {
                     console.log(result);
+
+                    if (!result.response.body) {
+                        res.jsonp("error occured");
+                        return;
+                    }
                     var recentItem = result.response.body[0].items[0].item[0];
                     output['관측소'] = stationName;
                     for (var key in recentItem) {
