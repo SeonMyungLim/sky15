@@ -36,7 +36,7 @@ app.get('/getAirCond', function(req, res, next){
                 var tmXTemp = body.match(xml_x);
                 var tmYTemp = body.match(xml_y);
                 if (!tmXTemp || !tmYTemp)
-                    res.send({"error occured"});
+                    res.jsonp("error occured");
                 tmX = tmXTemp[1];
                 tmY = tmYTemp[1];
                 next();
