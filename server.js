@@ -35,6 +35,8 @@ app.get('/getAirCond', function(req, res, next){
                 var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
                 var tmXTemp = body.match(xml_x);
                 var tmYTemp = body.match(xml_y);
+                if (!tmXTemp || !tmYTemp)
+                    res.send({"error occured"});
                 tmX = tmXTemp[1];
                 tmY = tmYTemp[1];
                 next();
@@ -76,14 +78,14 @@ app.get('/getAirCond', function(req, res, next){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-		parseString(body, function (err, result) {
-			var recentItem = result.response.body[0].items[0].item[0];
-            output['관측소'] = stationName;
-            for (var key in recentItem) {
-                output[key] = recentItem[key][0];
-            }
-            console.log(output);
-		});
+                parseString(body, function (err, result) {
+                    var recentItem = result.response.body[0].items[0].item[0];
+                    output['관측소'] = stationName;
+                    for (var key in recentItem) {
+                        output[key] = recentItem[key][0];
+                    }
+                    console.log(output);
+                });
                 res.send(output);
             } else {
                 cosole.log(response);
