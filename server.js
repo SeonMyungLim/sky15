@@ -78,7 +78,9 @@ app.get('/getAirCond', function(req, res, next){
 		parseString(body, function (err, result) {
 			var recentItem = result.response.body[0].items[0].item[0];
 
-            console.log(recentItem);
+            for (var key in recentItem) {
+                console.log(key);
+            }
 
 
 
