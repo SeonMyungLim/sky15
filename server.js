@@ -35,8 +35,10 @@ app.get('/getAirCond', function(req, res, next){
                 var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
                 var tmXTemp = body.match(xml_x);
                 var tmYTemp = body.match(xml_y);
-                if (!tmXTemp || !tmYTemp)
+                if (!tmXTemp || !tmYTemp) {
                     res.jsonp("error occured");
+                    return;
+                }
                 tmX = tmXTemp[1];
                 tmY = tmYTemp[1];
                 next();
