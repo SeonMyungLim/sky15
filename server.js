@@ -22,7 +22,8 @@ var tmX = 0, tmY = 0;
 
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
-    var sidong = conds.sidong || '혜화동';
+    var sido = conds.sido || '서울특별시',
+        sidong = conds.sidong || '혜화동';
 
     postRequest();
     function postRequest(){
@@ -42,23 +43,27 @@ app.get('/getAirCond', function(req, res, next){
                 //tmY = tmYTemp[1];
                 parseString(body, function (err, result) {
                     var recentItems = result.response.body[0].items[0].item;
-                    console.log(recentItems);
 
                     if (recentItems.length != 1) {
                         for (var i = 0; i < recentItems.length; i++) {
-                            console.log(recentItems[i]);
+                            var t = recentItems[i];
+                            if (sido == t.sidoName[0]) {
+                                tmX = t.tmX[0];
+                                tmY = t.tmY[0];
+                                break;
+                            }
                         }
                     } else {
-                        console.log(recentItems);
-                        res.send(recentItems);
-
+                        var t = recentItems[0];
+                        tmX = t.tmX[0];
+                        tmY = t.tmY[0];
                     }
 
                     if (!tmX || !tmY) {
-
+                        var t = recentItems[0];
+                        tmX = t.tmX[0];
+                        tmY = t.tmY[0];
                     }
-
-                    res.send(recentItems);
                 });
                 //res.send(output);
                 next();
@@ -75,6 +80,7 @@ app.get('/getAirCond', function(req, res, next){
 app.get('/getAirCond', function(req, res, next){
     postRequest();
 
+    console.log(22222222222);
     function postRequest(){
         var dest = apiUrlForStation+'tmX='+tmX+'&tmY='+tmY+queryOptionForStation+apiKey;
 
