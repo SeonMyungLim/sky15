@@ -57,9 +57,8 @@ app.get('/getAirCond', function(req, res, next){
                     }
 
                     if (!tmX || !tmY) {
-                        var t = recentItems[0];
-                        tmX = t.tmX[0];
-                        tmY = t.tmY[0];
+                        tmX = 200089.126044;
+                        tmY = 453946.42329;
                     }
                 });
                 next();
