@@ -32,16 +32,6 @@ app.get('/getAirCond', function(req, res, next){
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-                //var xml_x = new RegExp("<tmX>(.+?)<\/tmX>", "m");
-                //var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
-                //var tmXTemp = body.match(xml_x);
-                //var tmYTemp = body.match(xml_y);
-                //if (!tmXTemp || !tmYTemp) {
-                    //res.jsonp("error occured");
-                    //return;
-                //}
-                //tmX = tmXTemp[1];
-                //tmY = tmYTemp[1];
                 parseString(body, function (err, result) {
                     var recentItems = result.response.body[0].items[0].item;
 
@@ -66,9 +56,6 @@ app.get('/getAirCond', function(req, res, next){
                         tmY = t.tmY[0];
                     }
                 });
-                //res.send(output);
-                //console.log('sido', sido);
-                //console.log('sigu', sigu);
                 next();
             } else {
                 cosole.log(response);
@@ -83,7 +70,6 @@ app.get('/getAirCond', function(req, res, next){
 app.get('/getAirCond', function(req, res, next){
     postRequest();
 
-    console.log(22222222222);
     function postRequest(){
         var dest = apiUrlForStation+'tmX='+tmX+'&tmY='+tmY+queryOptionForStation+apiKey;
 
