@@ -41,7 +41,7 @@ app.get('/getAirCond', function(req, res, next){
                 //tmX = tmXTemp[1];
                 //tmY = tmYTemp[1];
                 parseString(body, function (err, result) {
-                    var recentItems = result.response.body[0].items;
+                    var recentItems = result.response.body[0].items.item;
                     console.log(recentItems);
                     res.send(recentItems);
                 });
