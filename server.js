@@ -44,8 +44,18 @@ app.get('/getAirCond', function(req, res, next){
                     var recentItems = result.response.body[0].items[0].item;
                     console.log(recentItems);
 
-                    for (var i = 0; i < recentItems.length; i++) {
-                        console.log(recentItems[i]);
+                    if (recentItems.length != 1) {
+                        for (var i = 0; i < recentItems.length; i++) {
+                            console.log(recentItems[i]);
+                        }
+                    } else {
+                        console.log(recentItems);
+                        res.send(recentItems);
+
+                    }
+
+                    if (!tmX || !tmY) {
+
                     }
 
                     res.send(recentItems);
