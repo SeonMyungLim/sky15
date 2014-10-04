@@ -99,7 +99,6 @@ app.get('/getAirCond', function(req, res, next){
                     }
                     console.log(output);
                 });
-                console.log(22222);
                 res.send(output);
             } else {
                 cosole.log(response);
