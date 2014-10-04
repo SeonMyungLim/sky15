@@ -26,26 +26,26 @@ app.get('/getAirCond', function(req, res, next){
 
     postRequest();
     function postRequest(){
-        console.log(sidong);
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
 
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
-                var xml_x = new RegExp("<tmX>(.+?)<\/tmX>", "m");
-                var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
-                var tmXTemp = body.match(xml_x);
-                var tmYTemp = body.match(xml_y);
-                if (!tmXTemp || !tmYTemp) {
-                    res.jsonp("error occured");
-                    return;
-                }
-                tmX = tmXTemp[1];
-                tmY = tmYTemp[1];
-                //parseString(body, function (err, result) {
-                    //var recentItem = result.response.body[0].items[0].item[0];
-                    //console.log(output);
-                //});
-                //res.send(output);
+                //var xml_x = new RegExp("<tmX>(.+?)<\/tmX>", "m");
+                //var xml_y = new RegExp("<tmY>(.+?)<\/tmY>", "m");
+                //var tmXTemp = body.match(xml_x);
+                //var tmYTemp = body.match(xml_y);
+                //if (!tmXTemp || !tmYTemp) {
+                    //res.jsonp("error occured");
+                    //return;
+                //}
+                //tmX = tmXTemp[1];
+                //tmY = tmYTemp[1];
+                parseString(body, function (err, result) {
+                    console.log(result);
+                    var recentItem = result.response.body[0].items[0].item[0];
+                    console.log(output);
+                });
+                res.send(output);
                 next();
             } else {
                 cosole.log(response);
