@@ -53,6 +53,7 @@ app.get('/getAirCond', function(req, res, next){
                         var t = recentItems[0];
                         tmX = t.tmX[0];
                         tmY = t.tmY[0];
+                        console.log(t);
                     }
 
                     if (!tmX || !tmY) {
@@ -60,7 +61,6 @@ app.get('/getAirCond', function(req, res, next){
                         tmX = t.tmX[0];
                         tmY = t.tmY[0];
                     }
-                console.log(recentItems);
                 });
                 next();
             } else {
