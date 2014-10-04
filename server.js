@@ -25,6 +25,7 @@ app.get('/getAirCond', function(req, res, next){
     var sido = conds.sido || '서울특별시',
         sidong = conds.sidong || '혜화동';
 
+        console.log(sido);
     postRequest();
     function postRequest(){
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
@@ -66,8 +67,8 @@ app.get('/getAirCond', function(req, res, next){
                     }
                 });
                 //res.send(output);
-                console.log('sido', sido);
-                console.log('sigu', sigu);
+                //console.log('sido', sido);
+                //console.log('sigu', sigu);
                 next();
             } else {
                 cosole.log(response);
