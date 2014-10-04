@@ -45,7 +45,7 @@ app.get('/getAirCond', function(req, res, next){
                     console.log(recentItems);
                     res.send(recentItems);
                 });
-                res.send(output);
+                //res.send(output);
                 next();
             } else {
                 cosole.log(response);
