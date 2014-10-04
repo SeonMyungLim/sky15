@@ -22,8 +22,14 @@ var tmX = 0, tmY = 0;
 
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
-    var sido = conds.sido || '서울특별시',
-        sidong = conds.sidong || '혜화동';
+    var sido, sidong;
+    if (!conds.sido || !conds.sidong) {
+        sido = '서울특별시';
+        sidong = '혜화동';
+    } else {
+        sido = conds.sido;
+        sidong = conds.sidong;
+    }
 
     postRequest();
     function postRequest(){
@@ -55,6 +61,7 @@ app.get('/getAirCond', function(req, res, next){
                         tmY = t.tmY[0];
                     }
                 });
+                console.log(recentItems);
                 next();
             } else {
                 cosole.log(response);
