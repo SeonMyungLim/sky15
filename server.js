@@ -66,6 +66,8 @@ app.get('/getAirCond', function(req, res, next){
                     }
                 });
                 //res.send(output);
+                console.log('tmX', tmX);
+                console.log('tmY', tmY);
                 next();
             } else {
                 cosole.log(response);
