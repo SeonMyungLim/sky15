@@ -37,6 +37,7 @@ app.get('/getAirCond', function(req, res, next){
         var dest = apiUrlForTM+sidong+queryOptionForTM+apiKey;
 
         request(dest, function(err, response, body){
+            console.log(body);
             if (!err && response.statusCode == 200){
                 parseString(body, function (err, result) {
                     if (result.response && result.response.body && result.response.body[0] && response.body[0].items[0]) {
