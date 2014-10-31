@@ -22,6 +22,7 @@ var tmX = 0, tmY = 0;
 
 app.get('/getAirCond', function(req, res, next){
     var conds = req.query;
+    console.log(conds);
     var sido, sidong;
     if (!conds.sido || !conds.sidong) {
         sido = '서울특별시';
