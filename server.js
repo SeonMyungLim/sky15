@@ -38,27 +38,32 @@ app.get('/getAirCond', function(req, res, next){
         request(dest, function(err, response, body){
             if (!err && response.statusCode == 200){
                 parseString(body, function (err, result) {
-                    var recentItems = result.response.body[0].items[0].item;
+                    if (result.response && result.response.body[0] && response.body[0].items[0]) {
+                        var recentItems = result.response.body[0].items[0].item;
 
-                    if (recentItems.length != 1) {
-                        for (var i = 0; i < recentItems.length; i++) {
-                            var t = recentItems[i];
-                            if (sido == t.sidoName[0]) {
-                                tmX = t.tmX[0];
-                                tmY = t.tmY[0];
-                                break;
+                        if (recentItems.length != 1) {
+                            for (var i = 0; i < recentItems.length; i++) {
+                                var t = recentItems[i];
+                                if (sido == t.sidoName[0]) {
+                                    tmX = t.tmX[0];
+                                    tmY = t.tmY[0];
+                                    break;
+                                }
                             }
+                        } else {
+                            var t = recentItems[0];
+                            tmX = t.tmX[0];
+                            tmY = t.tmY[0];
+                            console.log(t);
+                        }
+
+                        if (!tmX || !tmY) {
+                            tmX = 200089.126044;
+                            tmY = 453946.42329;
                         }
                     } else {
-                        var t = recentItems[0];
-                        tmX = t.tmX[0];
-                        tmY = t.tmY[0];
-                        console.log(t);
-                    }
-
-                    if (!tmX || !tmY) {
-                        tmX = 200089.126044;
-                        tmY = 453946.42329;
+                        res.jsonp("no result");
+                        return;
                     }
                 });
                 next();
