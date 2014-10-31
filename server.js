@@ -61,12 +61,12 @@ app.get('/getAirCond', function(req, res, next){
                             tmX = 200089.126044;
                             tmY = 453946.42329;
                         }
+                        next();
                     } else {
                         res.jsonp("no result");
                         return;
                     }
                 });
-                next();
             } else {
                 cosole.log(response);
                 console.log(err);
